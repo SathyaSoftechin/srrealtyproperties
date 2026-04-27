@@ -1,0 +1,410 @@
+/* PrivateSchedule.css */
+
+
+
+
+
+
+
+
+.private-container {
+  background: #0b0b0c;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+   line-height: 1.6;
+}
+
+.private-hero {
+  position: relative;
+  height: 420px;
+}
+
+.private-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.private-hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.private-title {
+  font-size: 48px;
+   font-size: 56px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.private-subtitle {
+  color: gold;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.private-desc {
+  max-width: 420px;
+  opacity: 0.8;
+}
+
+.private-content {
+  display: flex;
+  padding: 60px 8%;
+  gap: 40px;
+}
+
+.private-left {
+  flex: 2;
+}
+
+.private-right {
+  flex: 1;
+  background: #121212;
+  padding: 30px;
+  border: 1px solid #222;
+}
+
+.private-block {
+  margin-bottom: 40px;
+}
+
+.private-options {
+  display: flex;
+  gap: 20px;
+}
+
+.private-option {
+  background: #111;
+  border: 1px solid #333;
+  padding: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.private-dates {
+  display: flex;
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.private-date {
+  padding: 10px 14px;
+  border: 1px solid #333;
+}
+
+
+
+
+
+
+.private-date.active {
+  background: gold;
+  color: #000;
+}
+
+.private-times {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.private-time {
+  padding: 10px;
+  background: #111;
+  border: 1px solid #333;
+  color: white;
+}
+
+.private-time.active {
+  background: gold;
+  color: black;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.private-user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 15px 0;
+  opacity: 0.6;
+}
+
+.private-user.active {
+  opacity: 1;
+}
+
+.private-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.private-price {
+  margin: 30px 0;
+  font-size: 20px;
+  color: gold;
+}
+
+.private-confirm {
+  width: 100%;
+  padding: 15px;
+  background: gold;
+  border: none;
+  font-weight: bold;
+}
+
+.private-bottom {
+  display: flex;
+  padding: 60px 8%;
+  gap: 40px;
+  align-items: center;
+}
+
+.private-bottom img {
+  width: 40%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.private-bottom-text h2 {
+  font-size: 32px;
+}
+
+.private-bottom-text button {
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid gold;
+  color: gold;
+  padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ADD THESE ONLY */
+
+/* Smooth font + spacing */
+/* .private-container {
+  line-height: 1.6;
+} */
+
+/* Hero gradient overlay (important for UI look) */
+.private-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), #0b0b0c 250%);
+}
+
+/* Better title styling */
+/* .private-title {
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: 1px;
+} */
+
+/* Option hover + active effect */
+.private-option:hover {
+  border-color: gold;
+  transition: 0.3s;
+}
+
+.private-option.active {
+  border-color: gold;
+  background: rgba(255, 215, 0, 0.05);
+}
+
+/* Date hover */
+.private-date:hover {
+  border-color: gold;
+  cursor: pointer;
+}
+
+/* Time hover */
+.private-time:hover {
+  border-color: gold;
+  cursor: pointer;
+}
+
+/* Right panel heading */
+.private-right h4 {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: gold;
+  margin-bottom: 20px;
+}
+
+/* User hover */
+.private-user:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Confirm button hover */
+.private-confirm:hover {
+  background: #e6c200;
+  transition: 0.3s;
+}
+
+/* Bottom image styling */
+/* .private-bottom img {
+  border-radius: 4px;
+  object-fit: cover;
+} */
+
+/* Bottom text spacing */
+.private-bottom-text p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+/* Button hover (bottom section) */
+.private-bottom-text button:hover {
+  background: gold;
+  color: black;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+/* Hover effects */
+.private-date:hover {
+  border-color: gold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.private-time:hover {
+  border-color: gold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Smooth active effect */
+.private-date,
+.private-time {
+  transition: all 0.25s ease;
+}
+
+/* Slight scale effect (luxury feel) */
+.private-date:hover,
+.private-time:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+.private-date-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.private-date-header h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.private-month {
+  font-size: 14px;
+  color: gold;
+  letter-spacing: 1px;
+  
+}
+
+
+
+
+/* Container background (card style) */
+.private-DateTime {
+  background: #111;
+  border: 1px solid #222;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+/* Days row (Mon Tue...) */
+.private-days {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+/* Improve date box look */
+.private-date {
+  padding: 12px 16px;
+  border: 1px solid #333;
+  background: #0f0f0f;
+  transition: all 0.25s ease;
+}
+
+.private-date:hover {
+  border-color: gold;
+  cursor: pointer;
+}
+
+/* Improve time buttons */
+.private-time {
+  padding: 10px 14px;
+  background: #0f0f0f;
+  border: 1px solid #333;
+  transition: all 0.25s ease;
+}
+
+.private-time:hover {
+  border-color: gold;
+  cursor: pointer;
+}
+
+/* Active polish */
+.private-date.active,
+.private-time.active {
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+
+
+.private-avaialble{
+margin-top: 16px;
+}

@@ -1,0 +1,248 @@
+.speak-advisor-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  background: #0f0f0f;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* LEFT */
+.speak-advisor-left {
+  flex: 1;
+}
+
+.speak-advisor-tag {
+  color: #c9a74d;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 1px solid yellow;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.speak-advisor-left h1 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.speak-advisor-left h1 span {
+  color: #c9a74d;
+}
+
+.speak-advisor-left p {
+  color: #aaa;
+  max-width: 400px;
+}
+
+/* CARDS */
+.speak-advisor-cards {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.speak-advisor-card {
+  flex: 1;
+  padding: 20px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.speak-advisor-card.active {
+  border: 1px solid #c9a74d;
+  width:276px;
+}
+
+.speak-advisor-card svg {
+  font-size: 22px;
+  color: #c9a74d;
+}
+
+.speak-advisor-card h4 {
+  margin: 10px 0 5px;
+}
+
+/* CALENDAR */
+.speak-advisor-calendar-box {
+  display: flex;
+  gap: 70px;
+  margin-top: 20px;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.speak-advisor-days,
+.speak-advisor-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.speak-advisor-dates span {
+  padding: 6px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.speak-advisor-dates .active {
+  background: #c9a74d;
+  color: #000;
+}
+
+
+
+
+/* header navigation */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-header button {
+  background: transparent;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* keep your existing styles */
+.speak-advisor-days,
+.speak-advisor-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.speak-advisor-dates span {
+  padding: 6px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* today highlight */
+.speak-advisor-dates span.active {
+  background: #c9a74d;
+  color: #000;
+}
+
+
+
+
+
+
+/* TIMES */
+.speak-advisor-times button {
+  display: block;
+  width: 140px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background: #2a2a2a;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.speak-advisor-times .active {
+  background: #c9a74d;
+  color: #000;
+}
+
+/* hover */
+.speak-advisor-times button:hover {
+  background: #c9a74d;
+  color: #000;
+}
+/* RIGHT */
+.speak-advisor-right {
+  width: 350px;
+}
+
+/* IMAGE */
+.speak-advisor-image {
+  position: relative;
+}
+
+.speak-advisor-image img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.speak-advisor-image .speak-advisor-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+
+
+.speak-advisor-overlay span{
+color: #ffff00b8;
+}
+
+
+
+/* BENEFITS */
+.speak-advisor-benefits {
+  margin-top: 20px;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+  width:270px;
+  /* margin-left: 37px; */
+}
+
+.speak-advisor-benefits .speak-advisor-item {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.speak-advisor-benefits svg {
+  color: #c9a74d;
+  margin-top: 13px;
+    height: 23px;
+    width: 22px;
+}
+
+/* PROFILE */
+.speak-advisor-profile {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.speak-advisor-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.stars svg {
+  color: #c9a74d;
+}
+
+/* BUTTON */
+.speak-advisor-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background: #c9a74d;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}

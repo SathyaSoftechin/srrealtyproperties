@@ -1,0 +1,353 @@
+.property-details {
+  background: #0c0c0c;
+  color: #fff;
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ================= GALLERY ================= */
+.property-details-gallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.property-details-gallery-left {
+  position: relative;
+}
+
+.property-details-gallery-left img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.property-details-gallery-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* .property-details-img1{
+  height: 120%;
+} */
+
+.property-details-gallery-right img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.property-details-last-img {
+  position: relative;
+}
+
+.property-details-view-btn {
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+  background: #000;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+      margin-right: -166px;
+}
+
+/* make 3rd image span full width like last image */
+.property-details-gallery-right img:nth-child(3) {
+  grid-column: span 2;
+  height: 180px; /* adjust if needed */
+}
+
+/* .property-details-gallery-right img {
+  height: 120px;
+}
+
+.property-details-gallery-right img:nth-child(3) {
+  height: 200px;
+} */
+
+/* ================= BADGES ================= */
+.property-details-badges {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.property-details-badge {
+  background: gold;
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.property-details-badge-outline {
+  background: transparent;
+  border: 1px solid gold;
+  color: gold;
+}
+
+/* ================= HEADER ================= */
+.property-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.property-details-title h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.property-details-location {
+  color: gold;
+  font-size: 14px;
+}
+
+
+.property-details-price-box{
+  margin-right:350px;
+}
+
+
+.property-details-price-box span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.property-details-price-box h2 {
+  color: gold;
+  font-size: 28px;
+}
+
+/* ================= CONTENT ================= */
+.property-details-content {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+/* LEFT */
+.property-details-left {
+  flex: 2;
+}
+
+/* ================= STATS ================= */
+.property-details-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.property-details-stat-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  flex: 1;
+}
+
+.property-details-stat-card svg {
+  font-size: 20px;
+  color: gold;
+  margin-bottom: 8px;
+}
+
+.property-details-stat-card h3 {
+  margin: 5px 0;
+}
+
+.property-details-stat-card p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* ================= DESCRIPTION ================= */
+.property-details-description {
+  margin-bottom: 25px;
+}
+
+.property-details-description h3 {
+  margin-bottom: 10px;
+}
+
+.property-details-description p {
+  color: #ccc;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* ================= FEATURES ================= */
+.property-details-features-box {
+  display: flex;
+  gap: 40px;
+ 
+}
+
+.property-details-features-box h4 {
+  margin-bottom: 10px;
+  color:#ffd700;
+}
+
+.property-details-features-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.property-details-features-box li {
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+.property-details-feature-icon {
+  color: #ffd700;
+  margin-right: 8px;
+  font-size: 12px;
+  border-radius: 50%;
+  border:1px solid yellow;
+  padding:3px;
+}
+
+
+/* ================= CONTACT ================= */
+.property-details-contact-card {
+  flex: 1;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.property-details-agent {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.property-details-agent img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.property-details-agent p {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.property-details-input,
+.property-details-textarea {
+  width: 92%;
+  margin-bottom: 12px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.property-details-textarea {
+  height: 80px;
+  resize: none;
+}
+
+.property-details-submit-btn {
+  width: 100%;
+  background: gold;
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.property-details-contact-info {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.property-details-contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ================= LOCATION ================= */
+.property-details-location-section {
+  margin-top: 50px;
+}
+
+.property-details-location-section img {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+/* ================= SIMILAR ================= */
+.property-details-similar {
+  margin-top: 50px;
+}
+
+.property-details-similar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property-details-similar-header span {
+  color: gold;
+  cursor: pointer;
+}
+
+.property-details-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.property-details-card {
+  background: #1a1a1a;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 300px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.property-details-card:hover {
+  transform: translateY(-5px);
+}
+
+.property-details-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.property-details-card h4 {
+  padding: 10px;
+}
+
+.property-details-card p {
+  padding: 0 10px 10px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.property-details-price-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}

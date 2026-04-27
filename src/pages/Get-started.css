@@ -1,0 +1,177 @@
+.getstarted-page {
+  font-family: "Poppins", sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+/* HERO */
+.gs-hero {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.gs-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%); /* ✅ dark overlay effect like UI */
+}
+
+.gs-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gs-subtitle {
+  color: #c9a94d;
+  letter-spacing: 2px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.gs-overlay h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.gs-desc {
+  max-width: 600px;
+  margin: 10px auto;
+  color: #ccc;
+}
+
+
+
+
+
+
+/* CARDS */
+.gets-container {
+  width: 90%;
+  margin: auto;
+}
+
+.gets-gs-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  /* ✅ FIX MAIN ISSUE */
+  margin-top: -120px;   /* slight overlap only */
+  position: relative;
+  z-index: 3;           /* bring cards above hero */
+}
+
+.gets-gs-card {
+  width: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #1a1a1a;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ✅ hover effect like premium UI */
+.gets-gs-card:hover {
+  transform: translateY(-10px);
+}
+
+.gets-gs-card img {
+  width: 100%;
+  height: 220px; /* ✅ increased for clarity */
+  object-fit: cover;
+}
+
+.gets-gs-card-content {
+  padding: 20px;
+}
+
+.gets-gs-card h3 {
+  margin-bottom: 10px;
+}
+
+.gets-gs-card p {
+  font-size: 14px;
+  color: #bbb;
+}
+
+.gets-gs-card button {
+  margin-top: 15px;
+  background: #c9a94d;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ✅ button hover */
+.gets-gs-card button:hover {
+  background: #b8963f;
+}
+
+
+
+
+
+
+/* FEATURES */
+.gets-gs-features {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.gets-gs-feature {
+  width: 30%;
+}
+
+.gets-gs-feature .gets-icon {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  background: #1a1a1a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c9a94d;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.gets-gs-feature h4 {
+  margin-bottom: 10px;
+}
+
+.gets-gs-feature p {
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .gets-gs-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gets-gs-features {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .gets-gs-feature {
+    width: 100%;
+  }
+
+  .gets-gs-overlay h1 {
+    font-size: 36px;
+  }
+}
+

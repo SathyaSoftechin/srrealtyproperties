@@ -1,0 +1,141 @@
+/* FULL PAGE */
+
+/* ================= BACKGROUND ================= */
+.login-container {
+  height: 100vh;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 80px 24px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* DARK OVERLAY */
+.login-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #1F1C137A; /* Figma overlay */
+  z-index: 1;
+}
+
+/* ================= LOGIN CARD ================= */
+.login-card {
+  position: relative;
+  z-index: 2;
+
+  width: 420px;
+  padding: 40px;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+
+  color: #fff;
+
+  border-left: 4px solid #facc15;
+}
+
+/* ================= TEXT ================= */
+.welcome-text {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #ffffff; 
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #D0C5AF;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* ================= FORM ================= */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* LABEL */
+label {
+  font-size: 11px;
+  color: #facc15;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+/* INPUT */
+input {
+  background: #000;
+  border: none;
+  padding: 16px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+/* PASSWORD ROW */
+.password-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FORGOT */
+.forgot {
+  font-size: 10px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+/* ================= BUTTON ================= */
+.login-btn {
+  background: linear-gradient(to right, #facc15, #eab308);
+  color: #000;
+  padding: 16px;
+  border: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+}
+
+/* ================= SIGNUP ================= */
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: white;
+}
+
+.signup-text a {
+  color: white;
+  text-decoration: none;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+  color: #facc15;
+}
+
+
+.signup-text span {
+  color: #fff;
+  cursor: pointer;
+}

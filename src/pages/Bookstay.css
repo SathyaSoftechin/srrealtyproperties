@@ -1,0 +1,186 @@
+.bookstay_container {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #0f0d07, #14110a);
+  color: #fff;
+  padding: 40px;
+  gap: 40px;
+}
+
+/* LEFT */
+.bookstay_left {
+  flex: 1;
+}
+
+.bookstay_tag {
+  color: #caa53a;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bookstay_left h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.bookstay_subtext {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.bookstay_section {
+  margin-bottom: 30px;
+}
+
+.bookstay_section h3 {
+  margin-bottom: 15px;
+}
+
+.bookstay_row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.bookstay_section input {
+  width: 94%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* PAYMENT */
+.payment_option {
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.payment_option.active {
+  border: 2px solid #caa53a;
+}
+
+.payment_option span {
+  display: block;
+}
+
+.payment_option small {
+  color: #888;
+}
+
+/* CARD BOX */
+.card_box {
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* NOTE */
+.bookstay_note {
+  border: 1px solid #333;
+  padding: 15px;
+  border-radius: 12px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* RIGHT */
+.bookstay_right {
+  width: 380px;
+}
+
+.booking_card {
+  background: #1a1710;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.booking_card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.booking_card_content {
+  padding: 20px;
+}
+
+.booking_rating {
+  color: #caa53a;
+  font-size: 12px;
+}
+
+.booking_location {
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.booking_info_row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.booking_info_row small {
+  color: #888;
+}
+
+/* PRICE */
+.booking_price_box div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #ccc;
+}
+
+/* TOTAL */
+.booking_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.booking_total h2 {
+  color: #caa53a;
+}
+
+/* BUTTON */
+.booking_confirm_btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  background: #caa53a;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* SECURITY */
+.booking_security {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #aaa;
+}

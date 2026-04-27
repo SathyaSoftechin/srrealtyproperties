@@ -1,0 +1,185 @@
+.Browse {
+  background: linear-gradient(180deg, #0d0d0d, #1a1408);
+  color: #fff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.Browse-container {
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* Header */
+.Browse-back {
+  color: #aaa;
+  cursor: pointer;
+  text-decoration:none ;
+}
+
+.Browse-subtitle {
+  color: #caa64c;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.Browse-title {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.Browse-title span {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.Browse-desc {
+  color: #aaa;
+  max-width: 600px;
+  margin-bottom: 25px;
+}
+
+/* Search */
+.Browse-search {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.Browse-searchInput {
+  display: flex;
+  align-items: center;
+  background: #111;
+  padding: 10px;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.Browse-searchInput input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-left: 8px;
+  width: 100%;
+}
+
+.Browse-btn {
+  background: #111;
+  color: #ccc;
+  border: 1px solid #333;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 47px;
+
+}
+
+.Browse-refine {
+  background: #caa64c;
+  color: #000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 47px;
+  
+}
+
+/* Grid */
+.Browse-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.Browse-card {
+  background: transparent;
+}
+
+.Browse-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.Browse-cardContent {
+  margin-top: 10px;
+}
+
+.Browse-cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Browse-cardTop h3 {
+  font-size: 18px;
+}
+
+.Browse-cardTop span {
+  color: #caa64c;
+}
+
+.Browse-location {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.Browse-meta {
+  display: flex;
+  gap: 15px;
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
+/* Pagination */
+.Browse-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.Browse-pagination span,
+.Browse-pagination button {
+  padding: 8px 12px;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.Browse-pagination .active {
+  background: #caa64c;
+  color: #000;
+}
+
+/* Footer */
+.Browse-footer {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .Browse-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .Browse-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Browse-title {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,362 @@
+/* MAIN */
+.request-container {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  background: #0f0f0f;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* LEFT */
+.request-left {
+  width: 35%;
+}
+
+.request-card {
+  background: #1a1a1a;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.request-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: gold;
+  color: black;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.request-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.request-info {
+  padding: 20px;
+}
+
+.request-location {
+  color: gold;
+  margin: 10px 0;
+}
+
+.request-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.request-details span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* SUMMARY */
+.request-summary {
+  background: #1a1a1a;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.request-summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.request-total {
+  margin-top: 10px;
+}
+
+.request-total h2 {
+  color: gold;
+}
+
+/* RIGHT */
+ .request-right {
+  width: 65%;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 20px;
+} 
+
+.request-right h1 {
+  margin-bottom: 20px;
+}
+
+
+
+/* GUESTS */
+.request-guests {
+  margin-bottom: 20px;
+}
+
+.request-guest-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.request-guest-box button {
+  padding: 5px 10px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* SERVICES */
+.request-services {
+  margin-bottom: 20px;
+}
+
+.request-service {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.request-service.active {
+  border: 1px solid gold;
+}
+
+/* TEXTAREA */
+.request-textarea textarea {
+  width: 100%;
+  height: 100px;
+  background: #222;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.request-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  background: gold;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top:-15;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.request-right {
+  background: radial-gradient(circle at top, #1f1a10, #0f0f0f);
+  padding: 40px;
+  border-radius: 25px;
+  color: #fff;
+}
+
+.request-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.request-content {
+  display: flex;
+  gap: 30px;
+}
+
+/* LEFT SECTION */
+.request-left-section {
+  width: 50%;
+}
+
+.request-calendar-box {
+  margin-bottom: 20px;
+}
+
+.request-calendar {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.request-month {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+
+
+.request-month span {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+/* WEEK DAYS (Mon-Sun) */
+.request-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.request-weekdays span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+
+/* ✅ FIX: DAYS IN PERFECT ROWS */
+.request-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+/* DAY CELL */
+.request-days span {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* perfect circle box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.request-days .active {
+  background: gold;
+  color: black;
+}
+
+/* HOVER */
+.request-days span:hover {
+  background: gold;
+  color: black;
+}
+
+
+/* GUEST */
+.request-guest-card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.request-guest-card span {
+  font-size: 12px;
+  color: gray;
+}
+
+.request-guest-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.request-guest-control button {
+  background: #333;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+.request-guest-card p {
+font-size: 12px;
+}
+
+/* RIGHT SECTION */
+.request-right-section {
+  width: 50%;
+}
+
+.request-services-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.request-services-header span {
+  background: #333;
+  /* padding: 5px 10px; */
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 10px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.request-service-card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.request-service-card.active {
+  border: 1px solid gold;
+}
+
+/* TEXTAREA */
+.request-textarea textarea {
+  width: 100%;
+  height: 100px;
+  background: #1a1a1a;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 15px;
+}
+
+/* BUTTON */
+.request-btn {
+  margin-top: 30px;
+  width: 50%;
+  padding: 15px;
+  background: gold;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+.request-service-card p {
+font-size: 12px;
+    margin-top: -12px;
+}
+
+
+.request-clicking-bottom{
+  font-size: 12px;
+}

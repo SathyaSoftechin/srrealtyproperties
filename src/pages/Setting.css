@@ -1,0 +1,207 @@
+/* MAIN LAYOUT */
+.setting-container {
+  display: flex;
+  background: #0b0b0b;
+  color: #fff;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* SIDEBAR */
+.setting-sidebar {
+  width: 250px;
+  background: #050505;
+  padding: 20px;
+  border-right: 1px solid #222;
+}
+
+.setting-profile {
+  text-align: center;
+}
+
+.setting-profile img {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.setting-profile h3 {
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.setting-profile p {
+  color: gold;
+  font-size: 12px;
+}
+
+.setting-menu {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.setting-menu li {
+  padding: 12px;
+  color: #888;
+  cursor: pointer;
+}
+
+.setting-menu li.active {
+  color: gold;
+  border-left: 3px solid gold;
+}
+
+/* MAIN */
+.setting-main {
+  flex: 1;
+  padding: 40px;
+}
+
+.setting-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.setting-subtitle {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+/* GRID */
+.setting-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.setting-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #222;
+}
+
+.setting-card h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* INPUT */
+.setting-card input,
+.setting-card select {
+  width: 100%;
+  padding: 10px;
+  background: #000;
+  border: 1px solid #333;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* BUTTON GROUP */
+.setting-buttons button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  border: 1px solid #555;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.setting-buttons .active {
+  background: gold;
+  color: #000;
+}
+
+/* AVATAR */
+.setting-avatar-box {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.setting-avatar-box img {
+  width: 80px;
+  border-radius: 10px;
+}
+
+.setting-avatar-box span {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: gold;
+}
+
+/* SECURITY */
+.setting-security-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.setting-security-item h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.setting-security-item p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.setting-security-item button {
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid gold;
+  color: gold;
+  padding: 5px 10px;
+}
+
+/* TOGGLE */
+.setting-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting-toggle input {
+  accent-color: gold;
+}
+
+/* DOWNLOAD */
+.setting-download {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.setting-download button {
+  border: 1px solid gold;
+  background: transparent;
+  color: gold;
+  padding: 5px 12px;
+}
+
+/* DANGER */
+.setting-danger {
+  margin-top: 25px;
+}
+
+.setting-danger h4 {
+  color: red;
+}
+
+.setting-danger span {
+  color: gold;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .setting-grid {
+    grid-template-columns: 1fr;
+  }
+}

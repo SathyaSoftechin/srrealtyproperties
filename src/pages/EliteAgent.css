@@ -1,0 +1,246 @@
+.eliteagent-container {
+  background: #0b0b0b;
+  color: #fff;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+.eliteagent-hero h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.eliteagent-hero span {
+  color: #d4af37;
+}
+
+.eliteagent-hero p {
+  margin-top: 15px;
+  color: #aaa;
+  max-width: 600px;
+}
+
+
+
+
+
+
+
+/* WRAPPER (GOLD BORDER + GLASS LOOK) */
+.eliteagent-filter-wrapper {
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+/* MAIN FLEX */
+.eliteagent-filters {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* EACH BOX */
+.eliteagent-filter-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0f0f0f;
+  /* padding: 12px 16px; */
+  border-radius: 30px;
+  flex: 1;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.eliteagent-filter-box:hover {
+  border: 1px solid rgba(212, 175, 55, 0.5);
+}
+
+/* SEARCH BOX SPECIAL */
+.eliteagent-search {
+  flex: 1.5;
+}
+
+/* INPUT */
+.eliteagent-filter-box input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  width: 100%;
+  margin-left: 8px;
+  outline: none;
+  padding-bottom: 0px;
+}
+
+/* SELECT */
+.eliteagent-filter-box select {
+  background: transparent;
+  border: none;
+  color: #fff;
+  width: 100%;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* ICONS */
+.eliteagent-filter-box i {
+  color: #d4af37;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+/* CARDS */
+.eliteagent-cards {
+  margin-top: 40px;
+  display: flex;
+  gap: 25px;
+}
+
+.eliteagent-card {
+  background: #121212;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  position: relative;
+}
+
+.eliteagent-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.eliteagent-location {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: #d4af37;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+      margin-top: 255px;
+    margin-left: 16px;
+}
+
+.eliteagent-card h3 {
+  margin-top: 15px;
+}
+
+.eliteagent-role {
+  color: #bbb;
+  font-size: 14px;
+}
+
+/* STATS */
+.eliteagent-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.eliteagent-stats span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.eliteagent-stats h4 {
+  margin-top: 5px;
+}
+
+/* TAGS */
+.eliteagent-tags {
+  margin-top: 15px;
+}
+
+.eliteagent-tags span {
+  background: #1f1f1f;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* BUTTONS */
+.eliteagent-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  background: #d4af37;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.eliteagent-outline {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* STATS SECTION */
+.eliteagent-stats-section {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.eliteagent-small {
+  font-size: 12px;
+  color: #999;
+  letter-spacing: 2px;
+}
+
+.eliteagent-stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.eliteagent-stats-grid h3 {
+  color: #d4af37;
+}
+
+/* CTA */
+.eliteagent-cta {
+  margin-top: 60px;
+  background: linear-gradient(135deg, #1a1a1a, #000);
+  padding: 50px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.eliteagent-cta h2 {
+  margin-bottom: 10px;
+}
+
+.eliteagent-cta p {
+  color: #aaa;
+}
+
+.eliteagent-cta button {
+  margin-top: 20px;
+  background: #d4af37;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+}

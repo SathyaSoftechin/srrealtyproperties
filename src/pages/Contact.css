@@ -1,0 +1,474 @@
+.contact-page {
+  background: #0f0f0f;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO SECTION */
+.contact-hero {
+  padding: 80px 60px;
+  background: linear-gradient(120deg, #262020, #262424);
+}
+
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  align-items: center;
+}
+
+/* LEFT */
+.contact-left {
+  flex: 1;
+}
+
+.contact-tag {
+  display: inline-flex;
+  background: rgba(255, 204, 0, 0.1);
+  color: #ffcc00;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  align-items: center;
+    gap: 6px; /* space between icon & text */
+}
+
+
+.contact-tag-icon {
+  font-size: 12px;
+  color: #ffcc00; /* same yellow */
+}
+
+
+.contact-left h1 {
+  font-size: 45px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  color: #aaa;
+  margin-bottom: 30px;
+  max-width: 450px;
+}
+
+
+/* .stats-con{
+  background-color: none;
+} */
+
+.contact-stats {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-stats h3 {
+  color: #ffcc00;
+}
+
+.contact-stats p {
+  font-size: 12px;
+  color: #888;
+}
+
+/* FORM */
+.contact-form-box {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-group label {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #bbb;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* GLOBAL SECTION */
+.contact-global-section {
+  padding: 80px 60px;
+  text-align: left;
+}
+
+.contact-global-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-global-section p {
+  color: #aaa;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.global-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+
+
+
+.card {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 15px;
+  width: 280px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+/* Hover effect (optional but looks premium) */
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Title row */
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* margin-bottom: 10px; */
+}
+
+
+.card-location {
+  border: 1px solid #2a2a2a; /* light border */
+  border-radius: 15px;
+  padding: 20px;
+  width: 230px;
+  background: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+/* Optional hover (premium UI feel) */
+.card-location:hover {
+  border-color: #ffcc00;
+}
+
+
+/* Heading */
+.card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+/* Address text */
+.card p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Phone number */
+.card span {
+  color: #ffcc00;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.contact {
+  color: #fff;
+  background: #000;
+}
+
+/* HERO */
+.contact-hero {
+  position: relative;
+  padding: 100px 60px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.contact-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  z-index: 2;
+}
+
+/* LEFT */
+.contact-left {
+  flex: 1;
+}
+
+.badge {
+  color: gold;
+  font-size: 12px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.contact-left h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-left p {
+  color: #ccc;
+  margin-bottom: 25px;
+  max-width: 450px;
+}
+
+.contact-stats {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-stats h3 {
+  color: gold;
+}
+
+/* FORM */
+.contact-form {
+  flex: 1;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-box label {
+  font-size: 12px;
+  color: #bbb;
+  margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box select,
+.input-box textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #111;
+  color: #fff;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  background: gold;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* MAP */
+.map-section {
+  position: relative;
+  padding: 60px;
+  background: #111;
+  display: flex;
+  justify-content: center;
+}
+
+.map-img {
+  width: 100%;
+  max-width: 900px;
+  opacity: 0.6;
+}
+
+/* LOCATIONS */
+.location {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: gold;
+  border-radius: 50%;
+}
+
+/* approximate positions */
+.location.ny {
+  top: 50%;
+  left: 30%;
+}
+
+.location.uk {
+  top: 45%;
+  left: 50%;
+}
+
+.location.dubai {
+  top: 55%;
+  left: 60%;
+}
+
+
+
+
+
+
+.specialist-section {
+  background: linear-gradient(120deg, #0f0f0f, #1a1a1a);
+  padding: 80px 60px;
+  color: #fff;
+}
+
+/* TOP */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top:40px;
+}
+
+.top h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.top p {
+  color: #aaa;
+  max-width: 400px;
+}
+
+.view-btn {
+  padding: 10px 20px;
+  border: 1px solid gold;
+  background: transparent;
+  color: gold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* AGENTS */
+.agents {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* CARD */
+.agent-card {
+  width: 220px;
+}
+
+.agent-card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.agent-card h4 {
+  margin-bottom: 5px;
+}
+
+.role {
+  color: gold;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  font-size: 14px;
+  color: #888;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.loc-icon {
+  color: #ffcc00;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+   
+.cont-location{
+  width:16px;
+  height: 20px;
+}

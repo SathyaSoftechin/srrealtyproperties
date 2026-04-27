@@ -1,0 +1,311 @@
+.buy-container {
+  background: #0e0e0e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+.buy-hero {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.buy-overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-overlay h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.buy-overlay span {
+  color: #c9a94d;
+  font-style: italic;
+}
+
+/* SEARCH */
+.buy-search {
+  margin-top: 30px;
+  display: flex;
+  gap: 75px;
+  background: #222222db;
+  padding: 15px;
+  border-radius: 10px;
+  width:70%;
+}
+
+.buy-search-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.buy-search-item label {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.buy-search-item select {
+  padding: 8px;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.buy-search-btn {
+  background: #c9a94d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* SECTION */
+.buy-section {
+  padding: 60px 80px;
+}
+
+.buy-subtitle {
+  color: #c9a94d;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+/* CARDS */
+.buy-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.buy-card {
+  position: relative;
+  flex: 1;
+}
+
+.buy-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.buy-card span {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+}
+
+/* HEADER ROW */
+.buy-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy-view {
+  color: #c9a94d;
+  cursor: pointer;
+}
+
+/* PROPERTY GRID */
+.buy-property-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.buy-property {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  flex: 1;
+}
+
+.buy-property img {
+  width: 100%;
+}
+
+.buy-property-info {
+  padding: 15px;
+}
+
+.buy-property-info h3 {
+  margin: 0;
+}
+
+.buy-property-info p {
+  color: #c9a94d;
+}
+
+/* META */
+.buy-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+/* BUTTONS */
+.buy-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buy-buttons button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background: #c9a94d;
+}
+
+.buy-buttons .outline {
+  background: transparent;
+  border: 1px solid #c9a94d;
+  color: #c9a94d;
+} 
+
+
+
+
+
+
+/* JOURNEY */
+.buy-journey {
+  padding: 80px;
+  text-align: center;
+  background: #0e0e0e;
+  color: white;
+}
+
+.buy-journey-sub {
+  color: #c9a94d;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.buy-journey h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.buy-journey-desc {
+  color: #aaa;
+  max-width: 700px;
+  margin: auto;
+}
+
+.buy-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.buy-step {
+  width: 30%;
+}
+
+.buy-circle {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #c9a94d;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #c9a94d;
+  margin-bottom: 15px;
+}
+
+/* INSIGHTS */
+.buy-insights {
+  display: flex;
+  padding: 60px 80px;
+  background: #111;
+  color: white;
+  gap: 40px;
+}
+
+.buy-insights-left {
+  flex: 1;
+}
+
+.buy-insights-left h3 span {
+  color: #c9a94d;
+}
+
+.buy-bar {
+  margin-top: 20px;
+}
+
+.buy-progress {
+  height: 6px;
+  background: #333;
+  border-radius: 10px;
+}
+
+.buy-fill {
+  height: 100%;
+  background: #c9a94d;
+  border-radius: 10px;
+}
+
+.buy-green {
+  color: #00c853;
+}
+
+.buy-insights-right {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.buy-stat {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.buy-stat span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* CTA */
+.buy-cta {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.buy-cta-overlay {
+  background: rgba(0,0,0,0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.buy-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #c9a94d;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}

@@ -1,0 +1,247 @@
+
+.ScheduleBriefing-container {
+  background: #0f0f0f;
+  color: #fff;
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.ScheduleBriefing-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.ScheduleBriefing-subtitle {
+  color: #aaa;
+  margin-bottom: 30px;
+}
+
+.ScheduleBriefing-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+/* CARD */
+.ScheduleBriefing-card {
+  background: linear-gradient(145deg, #1a1a1a, #111);
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #222;
+}
+
+/* STEP TITLE */
+.ScheduleBriefing-card h3 {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ScheduleBriefing-card h3 span {
+  background: gold;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+/* CALENDAR */
+.ScheduleBriefing-month {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.ScheduleBriefing-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.ScheduleBriefing-date {
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background: #1c1c1c;
+  cursor: pointer;
+}
+
+.ScheduleBriefing-date.active {
+  background: gold;
+  color: black;
+}
+
+/* TIME SLOTS */
+.ScheduleBriefing-slots {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.ScheduleBriefing-slot {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.ScheduleBriefing-slot.active {
+  background: gold;
+  color: black;
+}
+
+
+
+
+.ScheduleBriefing-note {
+  margin-top: 15px;
+  color: #aaa;
+  font-size: 14px;
+  border: 1px solid rgb(196, 196, 41);
+  padding: 8px 12px; /* balanced text-level padding */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border-radius: 20px;
+}
+
+.ScheduleBriefing-note svg {
+  color: rgb(196, 196, 41);
+}
+
+
+
+.ScheduleBriefing-available{
+padding: 20px;
+}
+
+
+
+
+/* FOCUS */
+.ScheduleBriefing-focus-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+
+
+
+/* INNER FLEX */
+.ScheduleBriefing-focus-content {
+  padding: 15px;
+  border-radius: 15px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ACTIVE STATE */
+.ScheduleBriefing-focus.active {
+  border: 1px solid gold;
+  background: #222;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+}
+
+/* RIGHT CHECK BOX */
+.ScheduleBriefing-focus-check {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  float: right;
+  margin-top: -100px;
+}
+
+/* WHEN ACTIVE */
+.ScheduleBriefing-focus.active .ScheduleBriefing-focus-check {
+  background: gold;
+  border-color: gold;
+  color: black;
+}
+
+
+
+
+
+
+/* ADVISOR */
+.ScheduleBriefing-advisor {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  background: #1a1a1a;
+}
+
+.ScheduleBriefing-advisor img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.ScheduleBriefing-advisor.active {
+  border: 1px solid gold;
+}
+
+/* SUMMARY */
+.ScheduleBriefing-summary p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+/* BUTTON */
+.ScheduleBriefing-confirm {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: gold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+.ScheduleBriefing-summary-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+  padding: 10px 0;
+}
+
+.ScheduleBriefing-summary-row span {
+  font-size: 11px;
+  color: #888;
+}
+
+.ScheduleBriefing-summary-row p {
+  margin: 2px 0;
+}
+
+.ScheduleBriefing-icon {
+  color: gold;
+  font-size: 18px;
+}
+
+
+
+
+

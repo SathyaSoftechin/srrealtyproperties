@@ -1,0 +1,173 @@
+.summer {
+  background: #0f0e0b;
+  color: white;
+  padding: 20px 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+.summer-hero {
+  position: relative;
+  height: 420px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.summer-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.summer-hero-content {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  max-width: 500px;
+}
+
+.summer-hero-content span {
+  color: #d4af37;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.summer-hero-content h1 {
+  font-size: 48px;
+  margin: 10px 0;
+  font-family: "Playfair Display", serif;
+}
+
+.summer-hero-content p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.summer-hero-content button {
+  background: #d4af37;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* FILTERS */
+.summer-filters {
+  margin: 30px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.summer-filters button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #333;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.summer-filters .active {
+  background: #d4af37;
+  color: black;
+}
+
+/* CARDS */
+.summer-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.summer-card {
+  background: #181713;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.summer-card:hover {
+  transform: translateY(-5px);
+}
+
+.summer-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.summer-card-content {
+  padding: 15px;
+  color:white;
+}
+
+.summer-card-content h3 {
+  font-size: 16px;
+}
+
+.summer-card-price {
+  color: #d4af37;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+.summer-card-icon {
+  color: white;
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+/* DISCOVER */
+.summer-discover {
+  margin-top: 60px;
+}
+
+.summer-discover h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Playfair Display", serif;
+}
+
+.summer-discover-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.summer-discover-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.summer-discover-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.summer-discover-card .summer-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.summer-discover-card h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.summer-discover-card span {
+  color: #d4af37;
+  cursor: pointer;
+}

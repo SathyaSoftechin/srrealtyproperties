@@ -1,0 +1,169 @@
+.BluePrint {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #0b0b0c;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+/* Background */
+.BluePrint__bg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+.BluePrint__image {
+  width: 80%;
+  max-width: 1200px;
+  object-fit: contain;
+}
+
+/* Info Card */
+.BluePrint__infoCard {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  background: rgba(30, 30, 30, 0.9);
+  padding: 30px;
+  width: 320px;
+  border-radius: 4px;
+}
+
+.BluePrint__title {
+  font-size: 22px;
+  color: #d4a94f;
+  margin-bottom: 5px;
+}
+
+.BluePrint__subtitle {
+  font-size: 11px;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.BluePrint__meta div {
+  margin-bottom: 12px;
+}
+
+.BluePrint__meta span {
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.BluePrint__meta p {
+  font-size: 13px;
+}
+
+.highlight {
+  color: #d4a94f;
+}
+
+/* Stats */
+.BluePrint__stats {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.BluePrint__stats div {
+  flex: 1;
+  background: #2a2a2a;
+  padding: 10px;
+  text-align: center;
+}
+
+.BluePrint__stats span {
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.BluePrint__stats p {
+  font-size: 14px;
+}
+
+/* Side Panel */
+.BluePrint__sidePanel {
+  position: absolute;
+  right: 40px;
+  top: 100px;
+  background: rgba(20, 20, 20, 0.9);
+  padding: 20px;
+  width: 220px;
+}
+
+.BluePrint__sidePanel h4 {
+  font-size: 12px;
+  margin-bottom: 15px;
+  color: #d4a94f;
+}
+
+/* Checkbox */
+.BluePrint__checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.BluePrint__checkbox input {
+  margin-right: 8px;
+}
+
+.BluePrint__checkbox label {
+  font-size: 12px;
+}
+
+/* Button */
+.BluePrint__compareBtn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #d4a94f;
+  color: #d4a94f;
+  cursor: pointer;
+}
+
+/* Controls */
+.BluePrint__controls {
+  position: absolute;
+  right: 50px;
+  bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.BluePrint__controls button {
+  width: 40px;
+  height: 40px;
+  background: #1e1e1e;
+  border: none;
+  color: #d4a94f;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Tag */
+.BluePrint__tag {
+  position: absolute;
+  right: 260px;
+  top: 200px;
+  background: rgba(20, 20, 20, 0.9);
+  padding: 10px 15px;
+}
+
+.BluePrint__tag span {
+  font-size: 10px;
+  color: #d4a94f;
+}
+
+.BluePrint__tag p {
+  font-size: 12px;
+}

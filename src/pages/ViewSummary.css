@@ -1,0 +1,236 @@
+
+.ViewSummary-container {
+  background: linear-gradient(180deg, #0b0b0b, #1a1408);
+  color: #eaeaea;
+  padding: 50px;
+  font-family: Georgia, serif;
+}
+
+.ViewSummary-quote {
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+.ViewSummary-note {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #888;
+}
+
+/* GRID */
+.ViewSummary-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px; /* smaller gap */
+  width: 100%;
+}
+
+/* BOX SIZE REDUCED */
+.ViewSummary-metric {
+  background: #1a1a1a;
+  padding: 18px;           /* reduced from 25px */
+  text-align: center;
+  border-radius: 6px;
+}
+
+
+/* TEXT SMALLER */
+.ViewSummary-metric p {
+  font-size: 10px;
+  color: #aaa;
+  letter-spacing: 1px;
+}
+
+/* ICON SIZE */
+.ViewSummary-icon {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.ViewSummary-steps {
+  display: flex;
+  margin-top: 70px;
+  gap: 60px;
+}
+
+.ViewSummary-steps-left {
+  flex: 1;
+}
+
+.ViewSummary-steps-right {
+  flex: 1;
+}
+
+.ViewSummary-step {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.ViewSummary-step span {
+  color: #c9a24c;
+  font-weight: bold;
+}
+
+.ViewSummary-link-btn {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  color: #c9a24c;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ViewSummary-footer {
+  margin-top: 80px;
+  text-align: center;
+  background: linear-gradient(to right, #000, #111);
+  padding: 50px;
+}
+
+.ViewSummary-footer p {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+.ViewSummary-btn {
+  margin-top: 20px;
+  background: #c9a24c;
+  padding: 14px 35px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* Hero Container */
+.ViewSummary-hero {
+  width: 100%;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+/* Hero Image (MAIN FIX) */
+.ViewSummary-heroImg {
+  width: 100%;
+  height: 520px;              /* controls height like design */
+  object-fit: cover;          /* keeps image crop like UI */
+  display: block;
+}
+
+/* Optional: smoother edges like design
+.ViewSummary-heroImg {
+  border-radius: 4px;
+} */
+
+
+
+
+
+
+
+/* LEFT CONTAINER */
+.ViewSummary-left {
+  flex: 1.3;
+  display: flex;
+}
+
+
+/* CARD DESIGN (dark luxury look) */
+.ViewSummary-card {
+  /* background: #111;
+  padding: 28px;
+  border-radius: 6px;
+  position: relative; */
+    width: 100%;
+}
+
+/* CONSULTANT HEADER */
+.ViewSummary-consultant-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+/* AVATAR (FIXED PROPER SIZE) */
+.ViewSummary-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* TITLE */
+.ViewSummary-consultant-header h4 {
+  font-size: 14px;
+  color: #c9a24c;
+  margin: 0;
+}
+
+/* SUBTEXT */
+.ViewSummary-consultant-header p {
+  font-size: 11px;
+  color: #888;
+  margin: 2px 0 0;
+}
+
+/* QUOTE TEXT */
+.ViewSummary-quote {
+  margin-top: 18px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+/* SMALL NOTE TEXT */
+.ViewSummary-note {
+  margin-top: 18px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #777;
+}
+
+/* OPTIONAL: subtle watermark icon (like UI center shape) */
+.ViewSummary-card::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%);
+  transform: translateY(-50%);
+}
+
+
+
+.ViewSummary-main {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  align-items: stretch;
+}
+
+
+.ViewSummary-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* NUMBER SIZE */
+.ViewSummary-metric h2 {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+
+
+.ViewSummary-date-box{
+text-align: right;
+margin-top: -60px;
+}

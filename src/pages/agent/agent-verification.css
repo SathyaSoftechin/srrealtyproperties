@@ -1,0 +1,239 @@
+.agent-verification-wrapper {
+  display: flex;
+  background: #050505;
+  min-height: 100vh;
+  color: white;
+}
+
+/* MAIN */
+.agent-verification-main {
+  flex: 1;
+  padding: 24px;
+}
+
+/* CONTENT */
+.agent-verification-content {
+  padding: 20px;
+}
+
+/* HEADER */
+.agent-verification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.agent-verification-header h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.agent-verification-header p {
+  color: #8a8a8a;
+  font-size: 14px;
+}
+
+.agent-verification-filter-btn {
+  background: #1d1d1d;
+  color: #fff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* FILTERS */
+.agent-verification-filters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 28px;
+}
+
+.agent-verification-filter-box,
+.agent-verification-search-box {
+  background: #111;
+  padding: 18px;
+  border-radius: 18px;
+}
+
+.agent-verification-filter-box label,
+.agent-verification-search-box label {
+  display: block;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.agent-verification-filter-box select {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #f1c40f;
+  font-size: 16px;
+  outline: none;
+}
+
+.agent-verification-search-box div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.agent-verification-search-box input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+/* GRID */
+.agent-verification-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* CARD */
+.agent-verification-card {
+  background: linear-gradient(180deg, #1a1a1a, #101010);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+}
+
+.agent-verification-image-wrap {
+  position: relative;
+  height: 220px;
+}
+
+.agent-verification-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.agent-verification-priority {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: rgba(255,255,255,0.12);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.agent-verification-id {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(0,0,0,0.45);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+/* BODY */
+.agent-verification-card-body {
+  padding: 22px;
+}
+
+.agent-verification-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agent-verification-title-row h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.agent-verification-status {
+  background: rgba(241, 196, 15, 0.12);
+  color: #f1c40f;
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.agent-verification-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #9a9a9a;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.agent-verification-info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.agent-verification-info-row label {
+  display: block;
+  color: #666;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.agent-verification-info-row p {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* BUTTONS */
+.agent-verification-btn-row {
+  display: flex;
+  gap: 14px;
+}
+
+.agent-verification-primary-btn {
+  flex: 1;
+  background: #f1c40f;
+  border: none;
+  color: #111;
+  font-weight: 700;
+  padding: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.agent-verification-secondary-btn {
+  background: #2a2a2a;
+  color: #f1c40f;
+  border: none;
+  padding: 16px 22px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+/* @media (max-width: 1200px) {
+  .agent-verification-grid {
+    grid-template-columns: 1fr;
+  } */
+
+  .agent-verification-filters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .agent-verification-filters {
+    grid-template-columns: 1fr;
+  }
+}

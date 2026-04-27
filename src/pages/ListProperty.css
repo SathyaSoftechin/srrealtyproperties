@@ -1,0 +1,214 @@
+.ListProperty {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  background: #0b0b0b;
+}
+
+/* HERO */
+.lp-hero {
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.lp-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  height: 100%;
+  padding:80px 80px 0 80px;
+}
+
+.lp-tag {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #c9a74d;
+}
+
+.lp-title {
+  font-size: 56px;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.lp-title span {
+  color: #c9a74d;
+}
+
+.lp-subtitle {
+  max-width: 500px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* LAYOUT */
+.lp-container {
+  display: flex;
+  padding: 60px;
+}
+
+/* SIDEBAR */
+.lp-sidebar {
+  width: 250px;
+  padding-right: 30px;
+  padding-top: 61px;
+}
+
+.lp-step {
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+.lp-step.active {
+  opacity: 1;
+  color: #c9a74d;
+}
+
+.lp-step span {
+  margin-right: 10px;
+}
+
+.lp-quote {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #aaa;
+  border-left: 2px solid #c9a74d;
+  padding-left: 15px;
+}
+
+/* FORM */
+.lp-form {
+  flex: 1;
+  background: #111;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.lp-form h2 {
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.lp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.lp-input label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #aaa;
+}
+
+.lp-input input,
+.lp-input select {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+/* UPLOAD */
+.lp-upload-text {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.lp-upload-box {
+  border: 1px dashed #444;
+  padding: 40px;
+  text-align: center;
+}
+
+.lp-upload-box img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.lp-upload-box p {
+  margin: 10px 0;
+}
+
+.lp-upload-box span {
+  font-size: 12px;
+  color: #777;
+}
+
+.lp-upload-box button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: #222;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* WHY SECTION */
+.lp-why {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+}
+
+.lp-why-left {
+  flex: 1;
+}
+
+.lp-why-left span {
+  color: #c9a74d;
+}
+
+.lp-why-right {
+  flex: 1;
+}
+
+.lp-feature {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.lp-feature img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+/* ACTIONS */
+.lp-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.lp-actions .draft {
+  background: transparent;
+  border: none;
+  color: #aaa;
+}
+
+.lp-actions .next {
+  background: #c9a74d;
+  border: none;
+  padding: 12px 20px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.lp-icon {
+  font-size: 28px;
+  color: #c9a74d;
+}
+
+.upload-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}

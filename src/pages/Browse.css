@@ -1,0 +1,268 @@
+.browse-page {
+  background: #0f0f0f;
+  color: #fff;
+  padding: 40px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+/* HEADER */
+.BrowseAssets-header h1 {
+  font-size: 36px;
+}
+
+.BrowseAssets-header p {
+  color: #aaa;
+  margin: 10px 0 20px;
+}
+
+.BrowseAssets-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -50px;   /* pull it up near paragraph */
+}
+
+/* ✅ move tabs to right */
+.BrowseAssets-tabs {
+  margin-left: auto;
+}
+
+.BrowseAssets-tabs button {
+  background: #1a1a1a;
+  border: none;
+  padding: 8px 15px;
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.BrowseAssets-tabs .active {
+  background: #c9a94d;
+}
+
+/* ✅ HOVER EFFECT */
+.BrowseAssets-tabs button:hover {
+  background: #c9a94d;
+  color: #000;
+}
+
+.BrowseAssets-filter-btn {
+  background: #1a1a1a;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  color:white;
+}
+
+/* CATEGORY */
+.BrowseAssets-category-tabs {
+  margin: 20px;
+}
+
+.BrowseAssets-category-tabs button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.BrowseAssets-category-tabs .active {
+  background: #c9a94d;
+}
+
+
+
+
+
+/* GRID */
+.BrowseAssets-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* CARD */
+.BrowseAssets-card {
+  background: #121212;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.BrowseAssets-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.BrowseAssets-card-body {
+  padding: 20px;
+}
+
+.BrowseAssets-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BrowseAssets-percent {
+  color: #c9a94d;
+  font-weight: bold;
+}
+
+.BrowseAssets-location {
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.BrowseAssets-card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.BrowseAssets-card-info span {
+  color: #888;
+}
+
+.BrowseAssets-primary-btn {
+  width: 100%;
+  background: #c9a94d;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.BrowseAssets-secondary-btn {
+  width: 100%;
+  background: #1e2a44;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.BrowseAssets-outline-btn {
+  border: 1px solid #c9a94d;
+  background: transparent;
+  padding: 10px;
+  border-radius: 20px;
+  color: #c9a94d;
+}
+
+/* TAGS */
+.BrowseAssets-tag {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 5px 10px;
+  font-size: 11px;
+  border-radius: 10px;
+}
+
+.BrowseAssets-tag.gold { background: #c9a94d; }
+.BrowseAssets-tag.blue { background: #2a6df4; }
+.BrowseAssets-tag.red { background: #d94c4c; }
+.BrowseAssets-tag.gray { background: #555; }
+
+
+
+
+
+
+
+/* EMPTY */
+.BrowseAssets-empty {
+  border: 2px dashed #333;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+ 
+}
+
+/* 🔔 ICON STYLE */
+.BrowseAssets-empty-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+
+  /* NEW */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgba(0, 123, 255, 0.1); /* light blue background */
+}
+
+/* target BellRing SVG */
+.BrowseAssets-empty-icon svg {
+  color: #007bff; /* blue icon */
+  width: 32px;
+  height: 32px;
+}
+
+/* BUTTON */
+.BrowseAssets-outline-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: 1px solid #c9a94d;
+  background: transparent;
+  color: #c9a94d;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.BrowseAssets-outline-btn:hover {
+  background: #c9a94d;
+  color: #000;
+}
+
+
+
+
+
+.Breifing-header {
+  position: relative;
+}
+
+.Breifing-curators {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Breifing-curator-images {
+  display: flex;
+}
+
+.Breifing-curator-images img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: -10px;
+  border: 2px solid #0b0b0b;
+}
+
+.Breifing-curator-images img:first-child {
+  margin-left: 0;
+}
+
+.Breifing-curators span {
+  font-size: 12px;
+  color: #aaa;
+}

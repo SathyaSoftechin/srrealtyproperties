@@ -1,0 +1,229 @@
+.AgentBooking-container {
+  display: flex;
+  background: #0b0b0b;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+
+.AgentBooking-btn {
+  background: gold;
+  border: none;
+  padding: 12px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.AgentBooking-bottom span {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.AgentBooking-bottom{
+margin-top: 169px;
+    margin-left: 31px;
+}
+
+.AgentBooking-bottom span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+
+/* MAIN */
+.AgentBooking-main {
+  flex: 1;
+  padding: 50px;
+}
+
+.AgentBooking-main h1 {
+  color: gold;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.AgentBooking-subtitle {
+  opacity: 0.7;
+  margin-bottom: 40px;
+  max-width: 650px;
+  line-height: 1.6;
+}
+
+/* GRID LAYOUT (IMPORTANT FIX) */
+.AgentBooking-grid {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr;
+  grid-auto-rows: minmax(120px, auto);
+  gap: 25px;
+}
+
+/* PROFILE */
+.AgentBooking-profile {
+  background: #1a1a1a;
+  padding: 25px;
+  text-align: center;
+  grid-row: span 2;
+}
+
+.AgentBooking-profile img {
+  width: 120px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.AgentBooking-profile h3 {
+  margin-top: 10px;
+}
+
+.AgentBooking-profile span {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.AgentBooking-smallBtn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: gold;
+  border: none;
+  font-size: 12px;
+}
+
+.AgentBooking-smallBtn.outline {
+  background: transparent;
+  border: 1px solid gold;
+  color: gold;
+}
+
+.AgentBooking-desc {
+  font-size: 12px;
+  margin-top: 15px;
+  opacity: 0.7;
+}
+
+/* CARD */
+.AgentBooking-card {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* PORTFOLIO TOP RIGHT */
+.AgentBooking-card:nth-child(2) {
+  grid-column: span 2;
+}
+
+/* SECTION TITLES */
+.AgentBooking-card h3 {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* TOGGLE */
+.AgentBooking-toggleRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* CHECKBOX STYLE */
+.AgentBooking-toggleRow input {
+  accent-color: gold;
+  transform: scale(1.1);
+}
+
+/* VAULT */
+.AgentBooking-highlight {
+  border-left: 3px solid gold;
+  grid-column: span 2;
+}
+
+.AgentBooking-vaultGrid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.AgentBooking-vaultGrid div {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.AgentBooking-vaultGrid svg {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* ACTION BUTTONS */
+.AgentBooking-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.AgentBooking-actions span {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.AgentBooking-actions button {
+  background: gold;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* SMALL CARDS */
+.AgentBooking-small {
+  grid-column: span 1;
+}
+
+/* FULL WIDTH TEAM */
+.AgentBooking-full {
+  grid-column: span 2;
+}
+
+/* TEAM */
+.AgentBooking-team {
+  margin-top: 15px;
+}
+
+.AgentBooking-member {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  background: #111;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.AgentBooking-member img {
+  width: 45px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.AgentBooking-member h4 {
+  margin: 0;
+}
+
+.AgentBooking-member span {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* SCHEDULING */
+.AgentBooking-card span {
+  display: block;
+  margin-top: 5px;
+  opacity: 0.7;
+}

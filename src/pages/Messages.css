@@ -1,0 +1,427 @@
+/* MAIN CONTAINER */
+.message-container {
+  display: flex;
+  height: 100vh;
+  background: #0f0d08;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================= HEADER ================= */
+.message-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: #15120c;
+  border-bottom: 1px solid #2a2418;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  z-index: 10;
+}
+
+/* LEFT SIDE */
+.message-header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-box {
+  width: 18px;
+  height: 18px;
+  background: #c9a84e;
+  transform: rotate(45deg);
+}
+
+.message-header-left h2 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.message-header-left span {
+  font-size: 10px;
+  color: #c9a84e;
+}
+
+/* RIGHT SIDE */
+.message-header-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* STATUS BADGE */
+.status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #0f1f16;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  color: #4df5a6;
+}
+
+.status .dot {
+  width: 6px;
+  height: 6px;
+  background: #4df5a6;
+  border-radius: 50%;
+}
+
+/* RIGHT ICONS */
+.header-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.header-icons .circle {
+   width: 32px;
+  height: 32px;
+  background: #1e1a12;
+  border-radius: 50%;
+  border: 1px solid #2a2418;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+/* main icon */
+.header-icons .circle svg {
+  font-size: 16px;
+  color: #c9a84e;
+}
+
+
+/* small inner phone icon */
+.inner-icon {
+  position: absolute;
+  font-size: 10px;
+  color: #000;
+  background: #c9a84e;
+  border-radius: 50%;
+  padding: 2px;
+  bottom: -2px;
+  right: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ================= LEFT SIDEBAR ================= */
+.message-sidebar {
+  width: 260px;
+  background: #15120c;
+  padding: 25px 20px;
+  border-right: 1px solid #2a2418;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 95px;
+}
+
+/* PROFILE */
+.message-profile {
+  text-align: center;
+}
+
+.message-profile img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  border: 2px solid #c9a84e;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.message-profile h3 {
+  margin: 6px 0 3px;
+  font-size: 16px;
+}
+
+.message-profile p {
+  font-size: 12px;
+  color: #c9a84e;
+}
+
+/* BUTTONS */
+.message-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message-btn {
+  width: 100%;
+  padding: 11px;
+  border-radius: 25px;
+  border: none;
+  background: #2a2418;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.message-btn:hover {
+  background: #3a2f1a;
+}
+
+.message-btn.primary {
+  background: #c9a84e;
+  color: #000;
+  font-weight: 600;
+}
+
+/* PORTFOLIO */
+.message-portfolio h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.message-card {
+  background: #1d180f;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.message-card p {
+  font-size: 14px;
+}
+
+.message-card span {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.message-progress {
+  height: 6px;
+  background: #333;
+  border-radius: 10px;
+  margin: 8px 0;
+}
+
+.message-progress-bar {
+  width: 75%;
+  height: 100%;
+  background: #c9a84e;
+  border-radius: 10px;
+}
+
+.message-card small {
+  font-size: 11px;
+  color: #aaa;
+}
+
+/* ================= CHAT SECTION ================= */
+.message-chat {
+  flex: 1;
+  padding: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-top: 61px;
+}
+
+/* DATE */
+.message-date {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* MESSAGE ROW */
+.message-row {
+  display: flex;
+  margin-bottom: 18px;
+  align-items: flex-end;
+}
+
+.message-row.left img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.message-row.right {
+  justify-content: flex-end;
+}
+
+/* MESSAGE BUBBLE */
+.message-bubble {
+  background: #1e1a12;
+  padding: 14px 16px;
+  border-radius: 18px;
+  max-width: 60%;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.message-bubble.yellow {
+  background: #c9a84e;
+  color: #000;
+  font-weight: 500;
+}
+
+/* FILE BOX */
+.message-file {
+  display: flex;
+  align-items: center;
+  background: #2a2418;
+  padding: 12px;
+  border-radius: 12px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.message-file-icon {
+  background: #3a2f1a;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.message-file-icon svg {
+  font-size: 18px;
+  color: #c9a84e;
+}
+
+.message-file p {
+  font-size: 13px;
+}
+
+.message-file span {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.message-download {
+  margin-left: auto;
+  cursor: pointer;
+  color: #c9a84e;
+  font-size: 18px;
+}
+
+/* ================= INPUT ================= */
+.message-input {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  background: #1e1a12;
+  padding: 12px 15px;
+  border-radius: 30px;
+  gap: 12px;
+  border: 1px solid #2a2418;
+}
+
+.message-input svg {
+  color: #888;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.message-input input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 13px;
+  outline: none;
+}
+
+.message-input button {
+  background: #c9a84e;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-input button svg {
+  color: #000;
+}
+
+/* ================= RIGHT PANEL ================= */
+.message-right {
+  width: 260px;
+  background: #15120c;
+  padding: 25px 20px;
+  border-left: 1px solid #2a2418;
+  margin-top:50px;
+}
+
+.message-right h4 {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* SCHEDULE */
+.message-schedule {
+  margin-bottom: 15px;
+}
+
+.message-schedule p {
+  font-size: 13px;
+}
+
+.message-schedule span {
+  font-size: 11px;
+  color: #aaa;
+}
+
+/* ASSETS */
+.message-assets {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.message-assets div {
+  background: #1e1a12;
+  padding: 14px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.message-assets div:hover {
+  background: #2a2418;
+}

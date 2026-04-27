@@ -1,0 +1,178 @@
+.ContactElite {
+  background: #0b0b0b;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+
+
+
+.ContactElite-back-go{
+  text-decoration: none;
+    color: #ffffffc7;
+}
+
+
+
+
+
+
+.ContactElite-hero {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.ContactElite-hero-overlay {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.7), #0b0b0b);
+  height: 100%;
+  padding: 40px;
+}
+
+.ContactElite-topbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.ContactElite-title {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.ContactElite-subtitle {
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #caa85c;
+}
+
+.ContactElite-desc {
+  max-width: 500px;
+  margin-top: 10px;
+  color: #ddd;
+}
+
+.ContactElite-stats {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.ContactElite-stats h3 {
+  color: #caa85c;
+}
+
+/* MAIN */
+.ContactElite-main {
+  display: flex;
+  padding: 60px;
+  gap: 40px;
+}
+
+/* LEFT */
+.ContactElite-left {
+  flex: 2;
+}
+
+.ContactElite-left h2 {
+  margin-bottom: 20px;
+}
+
+.ContactElite-testimonials {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.ContactElite-card {
+  background: #111;
+  padding: 20px;
+  border-left: 3px solid #caa85c;
+}
+
+.ContactElite-card.dark {
+  background: #1a1a1a;
+}
+
+/* FORM */
+.ContactElite-form {
+  flex: 1;
+  background: #121212;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.ContactElite-form input,
+.ContactElite-form select,
+.ContactElite-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  background: #0d0d0d;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+.ContactElite-form textarea {
+  height: 100px;
+}
+
+.ContactElite-form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.ContactElite-form .primary {
+  background: #caa85c;
+  color: #000;
+}
+
+.ContactElite-form .secondary {
+  background: transparent;
+  border: 1px solid #caa85c;
+  color: #caa85c;
+}
+
+.ContactElite-form-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: #888;
+}
+
+/* COLLECTION */
+.ContactElite-collection {
+  padding: 60px;
+}
+
+.ContactElite-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.ContactElite-item {
+  flex: 1;
+  height: 300px;
+  background-size: cover;
+  position: relative;
+}
+
+.ContactElite-overlay {
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.ContactElite-overlay span {
+  font-size: 12px;
+  color: #caa85c;
+}

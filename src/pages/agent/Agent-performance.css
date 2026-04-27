@@ -1,0 +1,280 @@
+.Agent-performance-wrapper {
+  display: flex;
+  background: #050505;
+  min-height: 100vh;
+  color: white;
+}
+
+.Agent-performance-main {
+  flex: 1;
+  padding: 20px 30px;
+}
+
+.Agent-performance-container {
+  margin-top: 20px;
+}
+
+/* HEADER */
+.Agent-performance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.Agent-performance-header h1 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.Agent-performance-header p {
+  color: #888;
+  margin-top: 5px;
+}
+
+.Agent-performance-alerts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Agent-performance-alert {
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Agent-performance-alert span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.Agent-performance-alert.red {
+  background: rgba(255, 0, 0, 0.1);
+  color: #ff4d4d;
+}
+
+.Agent-performance-alert.red span {
+  background: #ff4d4d;
+}
+
+.Agent-performance-alert.green {
+  background: rgba(0, 255, 140, 0.08);
+  color: #38ff9c;
+}
+
+.Agent-performance-alert.green span {
+  background: #38ff9c;
+}
+
+/* FILTERS */
+.Agent-performance-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.Agent-performance-filters button {
+  background: #111;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.Agent-performance-export {
+  margin-left: auto;
+  background: #ffd700 !important;
+  color: black !important;
+  font-weight: 600;
+}
+
+/* STATS */
+.Agent-performance-stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.Agent-performance-stat-card {
+  background: linear-gradient(145deg, #111, #191919);
+  padding: 24px;
+  border-radius: 22px;
+}
+
+.Agent-performance-stat-card h4 {
+  font-size: 14px;
+  color: #888;
+}
+
+.Agent-performance-stat-card h2 {
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+.Agent-performance-stat-card span {
+  font-size: 13px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.green {
+  color: #38ff9c;
+}
+
+.yellow {
+  color: #ffd700;
+}
+
+.Agent-performance-stat-card.danger {
+  border: 1px solid #ff5e5e;
+  color: #ff5e5e;
+}
+
+/* CHARTS */
+.Agent-performance-chart-grid {
+  display: flex;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.Agent-performance-line-chart,
+.Agent-performance-donut-card,
+.Agent-performance-leaderboard,
+.Agent-performance-insights {
+  background: linear-gradient(145deg, #111, #1b1b1b);
+  border-radius: 25px;
+  padding: 25px;
+  min-width: 300px;
+}
+
+.Agent-performance-fake-chart {
+  margin-top: 20px;
+  height: 220px;
+}
+
+.Agent-performance-fake-chart svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* DONUT */
+.Agent-performance-donut {
+  width: 180px;
+  height: 180px;
+  margin: 25px auto;
+  border-radius: 50%;
+  background: conic-gradient(
+    #ffd700 0% 50%,
+    #44ff99 50% 75%,
+    #222 75% 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Agent-performance-donut-inner {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Agent-performance-legend {
+  display: flex;
+  justify-content: space-around;
+  color: #999;
+  font-size: 13px;
+}
+
+/* BOTTOM */
+.Agent-performance-bottom-grid {
+  display: flex;
+  grid-template-columns: 2fr 1fr;
+  gap: 25px;
+}
+
+.Agent-performance-agent-row {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+  padding: 18px;
+  margin-top: 15px;
+  background: #161616;
+  border-radius: 18px;
+  align-items: center;
+}
+
+.Agent-performance-agent-row span:nth-child(4) {
+  color: #38ff9c;
+}
+
+/* INSIGHTS */
+.Agent-performance-progress-block {
+  margin-top: 20px;
+}
+
+.bar {
+  width: 100%;
+  height: 8px;
+  background: #222;
+  border-radius: 20px;
+  margin-top: 8px;
+}
+
+.bar div {
+  height: 100%;
+  background: #ffd700;
+  border-radius: 20px;
+}
+
+.bar.green div {
+  background: #38ff9c;
+}
+
+.Agent-performance-mini-circles {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.Agent-performance-mini-circles div {
+  width: 90px;
+  height: 90px;
+  border: 5px solid #ffd700;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.Agent-performance-note {
+  margin-top: 25px;
+  font-size: 13px;
+  color: #ffd700;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .Agent-performance-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Agent-performance-chart-grid,
+  .Agent-performance-bottom-grid {
+    grid-template-columns: 1fr;
+  }
+}

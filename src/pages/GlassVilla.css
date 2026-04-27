@@ -1,0 +1,362 @@
+.GlassVilla {
+  background: #0a0a0a;
+  color: #fff;
+  font-family: "Georgia", serif;
+}
+
+/* HERO */
+.GlassVilla-hero {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.GlassVilla-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+
+.GlassVilla-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 80px;
+  max-width: 700px;
+}
+
+.GlassVilla-back {
+  color: #fff;
+  cursor: pointer;
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+
+.GlassVilla-back-go{
+  text-decoration: none;
+}
+
+
+.GlassVilla-subtitle {
+  color: #c9a74d;
+  letter-spacing: 3px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.GlassVilla-title {
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.GlassVilla-desc {
+  margin-top: 20px;
+  color: #cfcfcf;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.GlassVilla-hero-info {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.GlassVilla-price {
+  color: #d4af37;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.GlassVilla-location {
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* VISION */
+.GlassVilla-vision {
+  display: flex;
+  padding: 100px 80px;
+  gap: 60px;
+  align-items: center;
+}
+
+.GlassVilla-vision-left img {
+  width: 85%;
+  border-radius: 4px;
+}
+
+.GlassVilla-vision-right {
+  max-width: 500px;
+}
+
+.GlassVilla-vision-right h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.GlassVilla-vision-right span {
+  color: #d4af37;
+  font-style: italic;
+}
+
+.GlassVilla-vision-right p {
+  color: #bdbdbd;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.GlassVilla-author {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.GlassVilla-author img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* AMENITIES */
+.GlassVilla-amenities {
+  padding: 1px 60px;
+}
+
+.GlassVilla-amenities h3 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+
+.GlassVilla-amenities-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 300px 200px;
+  gap: 20px;
+}
+
+.GlassVilla-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.GlassVilla-card.large {
+  grid-row: span 2;
+}
+
+.GlassVilla-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.GlassVilla-card:hover img {
+  transform: scale(1.05);
+}
+
+.GlassVilla-card span {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 14px;
+  background: rgba(0,0,0,0.5);
+  padding: 6px 10px;
+}
+
+/* MATERIAL */
+.GlassVilla-material {
+  padding: 100px 80px;
+  text-align: left;
+}
+
+.GlassVilla-material h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.GlassVilla-material span {
+  color: #d4af37;
+  font-style: italic;
+}
+
+.GlassVilla-material-grid {
+  display: flex;
+  gap: 30px;
+  margin-top:30px;
+}
+
+.GlassVilla-material-grid img {
+  width: 33.33%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* INQUIRY */
+.GlassVilla-inquiry {
+  display: flex;
+  margin: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #111;
+  margin-top:-20px;
+}
+
+.GlassVilla-form {
+  flex: 1;
+  padding: 60px;
+}
+
+.GlassVilla-form h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.GlassVilla-form input {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #444;
+  color: #fff;
+}
+
+.GlassVilla-form button {
+  margin-top: 20px;
+  background: #d4af37;
+  border: none;
+  padding: 14px;
+  width: 200px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.GlassVilla-map {
+  flex: 1;
+  position: relative;
+}
+
+.GlassVilla-map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.GlassVilla-map span {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 14px;
+  background: rgba(0,0,0,0.6);
+  padding: 8px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.GlassVilla-author {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.GlassVilla-author-icon {
+  width: 60px;
+  height: 60px;
+  background: #1a1a1a;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+/* ICON COLOR GOLD */
+.GlassVilla-author-icon svg {
+  color: #d4af37;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTAINER */
+.GlassVilla-profile-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* IMAGE */
+.GlassVilla-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.GlassVilla-profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* TEXT */
+.GlassVilla-profile-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAME */
+.GlassVilla-profile-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* ROLE */
+.GlassVilla-profile-role {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 2px;
+}
+
+
+
+
+
+
+
+.GlassVilla-Refined{
+color:gold;
+text-align: center;
+padding-left: 384px;
+}

@@ -1,0 +1,209 @@
+.SecureMessage-container {
+  display: flex;
+  height: 100vh;
+  background: #0b0b0c;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* SIDEBAR */
+.SecureMessage-sidebar {
+  width: 30%;
+  background: #0f0f10;
+  padding: 20px;
+  border-right: 1px solid #1f1f1f;
+}
+
+.SecureMessage-sidebar h2 {
+  font-weight: 500;
+}
+
+.SecureMessage-unread {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.SecureMessage-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.SecureMessage-item {
+  padding: 15px;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+}
+
+.SecureMessage-item:hover {
+  background: #1a1a1a;
+}
+
+.SecureMessage-item.active {
+  background: #1a1a1a;
+  border-left: 3px solid gold;
+}
+
+.SecureMessage-item h4 {
+  font-size: 14px;
+}
+
+.SecureMessage-item p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.SecureMessage-item .time {
+  font-size: 11px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #777;
+}
+
+.tag {
+  font-size: 10px;
+  color: gold;
+}
+
+/* CHAT AREA */
+.SecureMessage-chat {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.SecureMessage-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.SecureMessage-user {
+  display: flex;
+  gap: 10px;
+}
+
+.SecureMessage-user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.SecureMessage-user span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.SecureMessage-actions svg {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/* ENCRYPTION */
+.SecureMessage-encryption {
+  text-align: center;
+  font-size: 11px;
+  color: #888;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+/* MESSAGES */
+.SecureMessage-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.SecureMessage-msg {
+  max-width: 60%;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.SecureMessage-msg.left {
+  background: #2a2a2a;
+}
+
+.SecureMessage-msg.right {
+  background: #3a2e0a;
+  margin-left: auto;
+}
+
+.SecureMessage-msg span {
+  display: block;
+  font-size: 10px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+/* FILE */
+.SecureMessage-file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1a1a1a;
+  padding: 15px;
+  border-left: 3px solid gold;
+  margin: 15px 0;
+}
+
+.file-left {
+  display: flex;
+  gap: 10px;
+}
+
+.SecureMessage-pdf-icon {
+  background: gold;
+  color: #000;
+  padding: 8px;
+  font-weight: bold;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.SecureMessage-download {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: gold;
+}
+/* INPUT */
+.SecureMessage-input {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.SecureMessage-input input {
+  flex: 1;
+  padding: 12px;
+  background: #111;
+  border: none;
+  color: #fff;
+  outline: none;
+}
+
+.SecureMessage-icons svg {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.SecureMessage-input button {
+  background: gold;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}

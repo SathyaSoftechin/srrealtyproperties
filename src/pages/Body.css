@@ -1,0 +1,252 @@
+.Body {
+  background: linear-gradient(120deg, #0c0c0c, #1a1408);
+  color: #fff;
+  padding: 60px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HEADER */
+.Body-header {
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+.Body-subtitle {
+  color: #caa64b;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.Body-title {
+  font-size: 60px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.Body-desc {
+  color: #aaa;
+  max-width: 600px;
+}
+
+/* MAIN */
+.Body-container {
+  display: flex;
+  gap: 40px;
+}
+
+/* LEFT */
+.Body-left {
+  flex: 1.2;
+}
+
+/* PROPERTY */
+.Body-property {
+  display: flex;
+  background: #111;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+}
+
+.Body-property img {
+  width: 180px;
+  border-radius: 4px;
+}
+
+.Body-property-info {
+  margin-left: 20px;
+}
+
+.Body-property-info h3 {
+  font-size: 24px;
+}
+
+.Body-location {
+  color: #caa64b;
+  font-size: 12px;
+}
+
+.Body-property-info h2 {
+  color: #caa64b;
+  margin: 10px 0;
+}
+
+/* TIMING */
+.Body-timing h3 {
+  margin-bottom: 20px;
+}
+
+.Body-calendar {
+  background: #111;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.Body-calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Body-days,
+.Body-dates {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Body-dates span {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Body-dates .active {
+  background: #caa64b;
+  color: #000;
+}
+
+.muted {
+  color: #555;
+}
+
+
+
+
+
+
+.Body-calendar-header svg {
+  cursor: pointer;
+  color: #caa64b;
+}
+
+.Body-calendar-header svg:hover {
+  transform: scale(1.2);
+}
+
+.Body-dates span {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.Body-dates span:hover {
+  background: #333;
+}
+
+.Body-time-slots button {
+  transition: 0.2s;
+}
+
+.Body-time-slots button:hover {
+  border-color: #caa64b;
+}
+
+
+
+
+
+/* TIME */
+.Body-time-slots {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.Body-time-slots button {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #555;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Body-time-slots .active {
+  background: #caa64b;
+  color: #000;
+}
+
+/* RIGHT */
+.Body-right {
+  flex: 1;
+}
+
+/* CONSULTANTS */
+.Body-consultants {
+  margin-bottom: 30px;
+}
+
+.Body-consultant {
+  display: flex;
+  align-items: center;
+  background: #111;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.Body-consultant img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.Body-consultant h4 {
+  margin: 0;
+}
+
+.Body-consultant p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.radio {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #777;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+}
+
+.radio.active {
+  border-color: #caa64b;
+  background: #caa64b;
+}
+
+/* FORM */
+.Body-form input,
+.Body-form textarea {
+  width: 100%;
+  background: #000;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.Body-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.Body-submit {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px;
+  background: #caa64b;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Body-note {
+  font-size: 10px;
+  color: #777;
+  margin-top: 10px;
+  text-align: center;
+}

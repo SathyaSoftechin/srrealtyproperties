@@ -1,0 +1,33 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.search-box {
+  width: 420px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #111;
+  padding: 14px 18px;
+  border-radius: 30px;
+}
+.search-box input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+}
+.top-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.online-dot {
+  width: 8px;
+  height: 8px;
+  background: #00ff66;
+  border-radius: 50%;
+}

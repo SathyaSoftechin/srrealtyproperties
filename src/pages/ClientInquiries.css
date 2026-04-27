@@ -1,0 +1,211 @@
+.ClientInquiries-container {
+  display: flex;
+  height: 100vh;
+  background: #0d0d0d;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* sidebar */
+
+.ClientInquiries-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 157px;
+}
+
+.ClientInquiries-profile img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* Main */
+.ClientInquiries-main {
+  flex: 1;
+  padding: 30px;
+}
+
+.ClientInquiries-header p {
+  color: #d4af37;
+  font-size: 12px;
+}
+
+.ClientInquiries-header h1 {
+  margin: 10px 0;
+}
+
+.ClientInquiries-actions button {
+  margin-right: 10px;
+  background: #222;
+  border: none;
+  padding: 8px 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Layout */
+.ClientInquiries-content {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+/* List */
+.ClientInquiries-list {
+  flex: 2;
+}
+
+.ClientInquiries-card {
+  background: #121212;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-left: 3px solid #444;
+}
+
+.ClientInquiries-card h3 {
+  margin: 0;
+}
+
+.ClientInquiries-card p {
+  font-size: 12px;
+  color: gray;
+}
+
+
+
+
+
+
+.lientInquiries-card-high span
+lientInquiries-card-high small {
+  margin-left: 200px;
+}
+
+
+
+
+
+
+
+.ClientInquiries-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+.ClientInquiries-gold { 
+      background: #3b3a34;
+    float: right;
+    margin-top: -60px;
+    border-radius: 20px;
+    border: 1px solid #9e873c; 
+    color:gold;
+}
+.ClientInquiries-blue {
+       background: #3b3a34;
+    float: right;
+    margin-top: -60px;
+    border-radius: 20px;
+    border: 1px solid #9e873c; 
+    color:blueviolet;
+
+  }
+.ClientInquiries-gray { 
+ /* background: #3b3a34; */
+    float: right;
+    margin-top: -60px;
+    border-radius: 20px;
+    border: 1px solid #9e873c;
+    /* color: gold; */
+}
+
+.ClientInquiries-status {
+  display: block;
+  margin-top: -16px;
+  font-size: 10px;
+  border:none;
+}
+
+.ClientInquiries-red { 
+ color: #ffffffb5;
+    float: right;
+    padding-bottom: -36px;
+    border: none;
+  
+    margin-top: -20px;
+
+
+
+}
+.ClientInquiries-yellow {
+  color: #ffffffb5;
+    float: right;
+   
+    border: none;
+    margin-top: -20px; 
+  }
+
+/* Right Panel */
+.ClientInquiries-details {
+  flex: 1;
+}
+
+.ClientInquiries-analysis {
+  background: #111;
+  padding: 20px;
+  width:220px;
+}
+
+.lockIcon {
+  color: #d4af37;
+  font-size: 24px;
+}
+
+.ClientInquiries-property {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.ClientInquiries-property img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.ClientInquiries-message {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.ClientInquiries-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.primary {
+  width: 100%;
+  padding: 10px;
+  background: #d4af37;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.secondary {
+  width: 100%;
+  padding: 10px;
+  background: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.decline {
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+  cursor: pointer;
+}

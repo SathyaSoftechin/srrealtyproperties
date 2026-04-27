@@ -1,0 +1,275 @@
+
+ .exploreglobal-container {
+  background: hsla(40, 13%, 9%, 1);
+  color: #fff; /* keep text visible */
+
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HERO */
+.exploreglobal-hero {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.exploreglobal-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 0;
+}
+
+/* DARK OVERLAY ON IMAGE */
+.exploreglobal-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.5); /* ✅ fixed */
+
+  z-index: 1;
+}
+
+/* OVERLAY CONTENT BOX */
+.exploreglobal-overlay {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  z-index: 2;
+
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.4)
+  );
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255,255,255,0.1);
+  
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 450px;
+}
+
+/* TEXT */
+.exploreglobal-overlay h1 {
+  font-size: 36px;
+}
+
+.exploreglobal-overlay span {
+  color: #d4af37;
+  font-style: italic;
+}
+
+.exploreglobal-overlay p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.exploreglobal-tag {
+  margin-top: 15px;
+  color: #d4af37;
+  font-size: 13px;
+}
+
+/* STATS */
+.exploreglobal-stats {
+  display: flex;
+  gap: 20px;
+  padding: 30px 8%;
+}
+
+.exploreglobal-card {
+  flex: 1;
+  background: #252020;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.exploreglobal-card h4 {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.exploreglobal-card h2 {
+  margin-top: 10px;
+}
+
+.exploreglobal-card span {
+  color: #00ff9d;
+  font-size: 13px;
+}
+
+/* SECTION */
+.exploreglobal-section {
+  padding: 40px 8%;
+}
+
+.exploreglobal-sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exploreglobal-sectionHeader span {
+  color: #d4af37;
+  font-size: 12px;
+}
+
+
+
+
+.exploreglobal-center{
+  text-align: center;
+}
+.exploreglobal-sub{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/* REGIONS */
+.exploreglobal-regions {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.exploreglobal-regionCard {
+  flex: 1;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.exploreglobal-regionCard img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.exploreglobal-regionCard h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+}
+
+.exploreglobal-regionCard p {
+  position: absolute;
+  bottom: 35px;
+  left: 15px;
+  font-size: 12px;
+  color: #d4af37;
+}
+
+
+
+
+/* COLLECTION WRAPPER (IMPORTANT FIX) */
+.exploreglobal-section {
+  padding: 40px 8%;
+}
+
+/* THIS FIXES YOUR BROKEN LAYOUT */
+.exploreglobal-section > .exploreglobal-collectionCard {
+  display: inline-block;
+  width: 32%;
+  margin-right: 2%;
+  vertical-align: top;
+}
+
+.exploreglobal-section > .exploreglobal-collectionCard:last-child {
+  margin-right: 0;
+}
+
+/* CARD */
+.exploreglobal-collectionCard {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  height: 220px;
+  cursor: pointer;
+}
+
+/* IMAGE */
+.exploreglobal-collectionCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s ease;
+}
+
+/* DARK GRADIENT OVERLAY (BETTER UI) */
+.exploreglobal-collectionCard::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.8),
+    rgba(0,0,0,0.4),
+    rgba(0,0,0,0.1)
+  );
+  z-index: 1;
+}
+
+/* TEXT */
+.exploreglobal-collectionCard h4,
+.exploreglobal-collectionCard p,
+.exploreglobal-collectionCard button {
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+}
+
+/* TITLE */
+.exploreglobal-collectionCard h4 {
+  top: 20px;
+  color: #d4af37;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 60px;
+}
+
+/* DESCRIPTION */
+.exploreglobal-collectionCard p {
+  top: 55px;
+  max-width: 220px;
+  font-size: 13px;
+  color: #ddd;
+  padding-left: 19px;
+}
+
+/* BUTTON */
+.exploreglobal-collectionCard button {
+  bottom: 20px;
+  background: transparent;
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  transition: 0.3s;
+  margin:67px;
+}
+
+/* BUTTON HOVER */
+.exploreglobal-collectionCard button:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+/* IMAGE HOVER ZOOM */
+.exploreglobal-collectionCard:hover img {
+  transform: scale(1.08);
+}

@@ -1,0 +1,211 @@
+.Join-container {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HEADER */
+.Join-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+
+.Join-session {
+  font-size: 12px;
+  color: #d4a94f;
+  letter-spacing: 2px;
+}
+
+.Join-header h1 {
+  font-size: 32px;
+  margin: 5px 0;
+}
+
+.Join-secure {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* LEFT CARD */
+.Join-asset-card {
+  position: absolute;
+  left: 60px;
+  bottom: 120px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+}
+
+.Join-asset-card h2 {
+  margin: 10px 0;
+}
+
+.Join-asset-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.Join-asset-grid p {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.Join-green {
+  color: #00ff99;
+}
+
+/* BUTTONS */
+.Join-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.Join-outline {
+  background: transparent;
+  border: 1px solid #aaa;
+  color: #fff;
+  padding: 10px;
+  flex: 1;
+}
+
+.Join-primary {
+  background: #d4a94f;
+  border: none;
+  padding: 10px;
+  flex: 1;
+  color: #000;
+}
+
+/* RIGHT PANEL */
+.Join-right-panel {
+  position: absolute;
+  right: 60px;
+  top: 120px;
+  width: 300px;
+}
+
+.Join-briefing {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.Join-briefing-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.Join-users {
+  margin-bottom: 15px;
+}
+
+.Join-user {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.Join-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.Join-avatar {
+  width: 40px;
+  height: 40px;
+  background: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+/* CHAT */
+.Join-chat {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.Join-input {
+  display: flex;
+}
+
+.Join-input input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+
+.Join-input button {
+  background: #d4a94f;
+  border: none;
+  padding: 8px 12px;
+}
+
+/* VIDEO */
+.Join-video {
+  margin-top: 20px;
+  position: relative;
+}
+
+.Join-video img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Join-video span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
+
+/* CONTROLS */
+.Join-controls {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+.Join-controls button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+.Join-controls button span {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.Join-end {
+  background: #ff4d4d;
+  padding: 10px;
+  border-radius: 10px;
+}

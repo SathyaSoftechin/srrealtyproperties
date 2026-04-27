@@ -1,0 +1,329 @@
+.bluechip_container {
+  background: #0b0b0b;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO */
+.bluechip_hero {
+  position: relative;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.bluechip_hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.55);
+}
+
+.bluechip_overlay {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  max-width: 650px;
+   padding-left:96px;
+  text-align: center;
+}
+
+.bluechip_tag {
+  color: #c9a94d;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.bluechip_overlay h1 {
+  font-size: 64px;
+  font-weight: 600;
+  margin: 10px 0;
+  line-height: 1.1;
+ 
+}
+
+.bluechip_overlay p {
+  opacity: 0.75;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.bluechip_buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  margin-left: 163px;
+}
+
+.bluechip_primary {
+  background: #c9a94d;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bluechip_outline {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 12px 22px;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #ffd700b3;
+    margin-left: 87px;
+}
+
+/* FILTER */
+.bluechip_filter {
+  display: flex;
+  gap: 15px;
+  padding: 25px 8%;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.bluechip_filter button {
+  background: #151515;
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bluechip_filter span {
+  margin-left: auto;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+/* SECTION */
+.bluechip_section {
+  padding: 50px 8%;
+}
+
+.bluechip_section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.bluechip_section p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.bluechip_section span{
+  color: #d4af37;
+  font-size: 12px;
+}
+
+
+
+.bluechip_section-our{
+display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+
+
+
+.bluechip_cards {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+/* CARD */
+.bluechip_card {
+  background: linear-gradient(180deg, #141414, #0e0e0e);
+  padding: 15px;
+  border-radius: 14px;
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: 0.3s;
+}
+
+.bluechip_card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(201,169,77,0.4);
+}
+
+.bluechip_card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bluechip_card h3 {
+  margin: 12px 0 5px;
+  font-size: 16px;
+}
+
+.bluechip_card span {
+  color: #c9a94d;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bluechip_card p {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.bluechip_stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.bluechip_stats small {
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.bluechip_stats b {
+  display: block;
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+.bluechip_card button {
+  width: 100%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #c9a94d;
+  color: #c9a94d;
+  border-radius: 25px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bluechip_card button:hover {
+  background: #c9a94d;
+  color: #000;
+}
+
+/* WHY */
+.bluechip_why {
+  display: flex;
+  padding: 70px 8%;
+  gap: 50px;
+  align-items: center;
+}
+
+.bluechip_why img {
+  width: 50%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.bluechip_why_text {
+  width: 50%;
+}
+
+.bluechip_why_text span {
+  color: #c9a94d;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.bluechip_why_text h2 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.bluechip_why_text p {
+  font-size: 14px;
+  opacity: 0.7;
+  line-height: 1.6;
+}
+
+.bluechip_why_text ul {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+.bluechip_why_text li {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+/* REQUEST */
+.bluechip_request {
+  text-align: center;
+  padding: 80px 8%;
+  background: linear-gradient(180deg, #111, #0b0b0b);
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.bluechip_request h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.bluechip_request p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.bluechip_input {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;   /* ensures same vertical alignment */
+  gap: 10px;
+}
+
+/* INPUT + BUTTON SAME HEIGHT & PADDING */
+.bluechip_input input,
+.bluechip_input button {
+  padding: 0px 20px;   /* same padding */
+  border-radius: 25px;
+  height: 48px;         /* force equal height */
+  font-size: 14px;
+}
+
+/* INPUT */
+.bluechip_input input {
+  width: 280px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+/* BUTTON */
+.bluechip_input button {
+  background: #c9a94d;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  white-space: nowrap;
+  margin-bottom: 20px;
+}
+
+/* SPAN (NOTE TEXT BELOW) */
+.bluechip_request span {
+  display: block;       /* move to next line */
+  margin-top: 10px;     /* exact spacing you asked */
+  font-size: 13px;
+  color: #aaa;
+  text-align: center;
+}

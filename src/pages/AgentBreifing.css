@@ -1,0 +1,139 @@
+.AgentBreifing-container {
+  display: flex;
+  background: #0c0c0c;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+/* MAIN */
+.AgentBreifing-main {
+  flex: 1;
+  padding: 40px;
+}
+
+/* HEADER */
+.AgentBreifing-header h1 {
+  font-size: 32px;
+}
+
+.AgentBreifing-subtitle {
+  color: gold;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.AgentBreifing-desc {
+  color: #aaa;
+  max-width: 600px;
+}
+
+/* LIST */
+.AgentBreifing-item {
+  display: flex;
+  align-items: center;
+  background: #151515;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+
+.AgentBreifing-date {
+  width: 60px;
+  text-align: center;
+  color: gold;
+}
+
+.AgentBreifing-item img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  margin: 0 20px;
+}
+
+.AgentBreifing-info {
+  flex: 1;
+}
+
+.AgentBreifing-info h3 {
+  margin: 5px 0;
+}
+
+.AgentBreifing-info span {
+  color: gray;
+  font-size: 14px;
+}
+
+.time {
+  color: gold;
+  font-size: 12px;
+}
+
+/* ACTIONS */
+.AgentBreifing-actions button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.AgentBreifing-outline {
+  background: transparent;
+  border: 1px solid #555;
+  color: #fff;
+}
+
+.AgentBreifing-filled {
+  background: gold;
+  border: none;
+  color: #000;
+}
+
+/* REPORTS */
+.AgentBreifing-reports {
+  margin-top: 50px;
+}
+
+.AgentBreifing-reports-header {
+  color: rgb(212, 212, 33);
+}
+
+
+
+
+
+.Agentbreifing-recent-report{
+  display: flex;
+  justify-content: space-between;
+}
+.Agentbreifing-recent-report span {
+  color:rgb(212, 212, 33) ;
+  padding-top: 24px;
+}
+
+.Agentbreifing-recent-report h2{
+  color: #fff;
+}
+
+
+
+
+
+.AgentBreifing-reportCards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.AgentBreifing-card {
+  background: #151515;
+  padding: 20px;
+  width: 30%;
+}
+
+.AgentBreifing-card button {
+  margin-top: 10px;
+  background: gold;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}

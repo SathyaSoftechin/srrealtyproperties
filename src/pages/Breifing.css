@@ -1,0 +1,344 @@
+.Breifing-container {
+  display: flex;
+  background: #0b0b0b;
+  color: #fff;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+/* SIDEBAR */
+.Breifing-sidebar {
+  width: 260px;
+  background: #050505;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 450px;
+}
+
+.Breifing-profile {
+  text-align: center;
+}
+
+.Breifing-profile img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.Breifing-profile h3 {
+  margin: 10px 0 5px;
+}
+
+.Breifing-profile span {
+  font-size: 12px;
+  color: gold;
+}
+
+/* .Breifing-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.Breifing-menu li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  color: #aaa;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.Breifing-menu li:hover {
+  background: #111;
+  color: #fff;
+}
+
+.Breifing-menu .active {
+  background: #111;
+  color: gold;
+}
+
+.Breifing-tour-btn {
+  background: gold;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Breifing-menu li.active {
+  background: #111;
+  color: gold;
+  border-left: 3px solid gold;
+}
+
+.Breifing-menu .icon {
+  font-size: 14px;
+} */
+
+/* MAIN */
+
+.Breifing-header h1 {
+  font-size: 52px;
+  font-weight: 600;
+}
+
+.Breifing-header h1 span {
+  color: gold;
+  font-size: 47px;
+}
+
+
+.Breifing-main {
+  flex: 1;
+  padding: 40px;
+}
+
+.Breifing-header span {
+  color: gold;
+  font-size: 12px;
+}
+
+.Breifing-header h1 {
+  font-size: 48px;
+}
+
+.Breifing-header h1 span {
+  color: gold;
+}
+
+.Breifing-header p {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+
+
+
+.Breifing-Live{
+ color: #ffffff9e;
+    font-size: 14px;
+}
+
+
+
+
+
+/* TOP */
+.Breifing-top {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* CARD */
+.Breifing-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.Breifing-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+}
+
+.Breifing-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Breifing-card-content {
+   position: absolute;
+  bottom: 30px;
+  left: 25px;
+  z-index: 2;
+}
+
+.Breifing-card-content h2 {
+  max-width: 400px;
+}
+
+.Breifing-card-content p {
+  color: #ccc;
+}
+
+.Breifing-card-content button {
+  margin-top: 10px;
+  background: gold;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.Breifing-tag {
+  background: #222;
+  padding: 5px 10px;
+  font-size: 12px;
+  border: 1px solid #7c7c32;
+   float: right;
+    margin: -268px 10px 0px 0;
+    border-radius: 20px;
+}
+
+/* RIGHT */
+.Breifing-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Breifing-session {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #222;
+      width: 190px;
+}
+
+.Breifing-report {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #222;
+}
+.Breifing-report {
+  font-size: 14px;
+}
+
+.Breifing-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Breifing-user img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.Breifing-outline {
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid gold;
+  color: gold;
+  padding: 10px;
+}
+
+/* ARCHIVE */
+.Breifing-archive {
+  margin-top: 40px;
+ 
+}
+.breifing-Filter{
+  display: flex;
+  justify-content: space-between;
+}
+.breifing-Filter span {
+ color: #bfbf4c;
+    padding-top: 16px;
+}
+
+
+
+
+.Breifing-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0f0f0f;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  color:white;
+}
+
+.Breifing-item span {
+  font-size: 20px;
+  color: #555;
+}
+
+.Breifing-item h3 {
+  margin: 0;
+}
+
+.Breifing-item button {
+  background: transparent;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Breifing-curators {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+      margin-top: 213px;
+    padding-right: 35px;
+}
+
+/* Avatar container */
+.Breifing-curator-images {
+  display: flex;
+  align-items: center;
+}
+
+/* 🔥 SMALL & CLEAN UI STYLE */
+.Breifing-curator-images img {
+  width: 26px;          /* smaller size */
+  height: 26px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -8px;    /* overlap effect */
+  border: 1.5px solid #111;
+  background: #222;
+}
+
+.Breifing-curator-images img:first-child {
+  margin-left: 0;
+}
+
+/* Text styling */
+.Breifing-curators span {
+  font-size: 10px;
+  color: #888;
+  letter-spacing: 0.5px;
+}
+
+
+
+
+.Breifing-item span {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+.Breifing-item span .eye-icon {
+  color: #fff;
+  font-size: 14px;
+}

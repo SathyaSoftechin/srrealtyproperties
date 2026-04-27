@@ -1,0 +1,132 @@
+.header {
+  background: #1f1e1c;
+  /* pure black UI */
+  padding: 15px 0;
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  margin: 15px;
+
+
+}
+
+body {
+  background: black;
+  /* this becomes your margin color */
+}
+
+/* KEEP container as you had (if already used globally) */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-weight: 500;
+  width:100px;
+  height:50px;
+}
+
+/* NAV */
+.nav {
+  margin-left: 60px;
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  font-size: 14px;
+}
+
+/* MAKE LINKS WHITE */
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* LI STYLE */
+.nav-list li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* HOVER + ACTIVE = YELLOW */
+.nav-list a:hover li,
+.nav-list .active {
+  color: white;
+}
+
+/* CONTACT BUTTON */
+.contact-header {
+  border: none;
+  background: none;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* SIGNUP BUTTON */
+.nav-btn {
+  background: #facc15;
+  border: none;
+  padding: 9px 8px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  text-decoration: none !important; 
+
+
+}
+   
+
+.btn-icon {
+  background: #000;
+  /* change color if needed */
+  color: #fff;
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 10px;
+}
+
+/* LOGO IMAGE */
+. 
+/* ESTATES TEXT */
+.logo-text span {
+  font-size: 11px;
+  margin-left: 4px;
+  color: #facc15;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+.nav-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-contact-icon {
+  font-size: 27px;
+  cursor: pointer;
+  color: #facc15;
+  transition: 0.3s;
+  margin-left: 10px;
+}
+
+.header-contact-icon:hover {
+  color: #007bff;
+}
