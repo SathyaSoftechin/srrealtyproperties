@@ -1,6 +1,6 @@
 import React from "react";
 import "./Signup1.css";
-import bgImage from "../assets/login.jpeg"; // or use /bg.jpg from public
+import bgImage from "../assets/Login.jpeg";  
 
 const AgentSignup = () => {
   return (

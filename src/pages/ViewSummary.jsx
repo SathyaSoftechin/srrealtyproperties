@@ -1,5 +1,5 @@
 import React from "react";
-import "./viewSummary.css";
+import "./ViewSummary.css";
 import heroImg from "../assets/viewSummary-pool.png";
 import avatar from "../assets/viewSummary-avatar.png";
 import { FaShieldAlt, FaMapMarkerAlt, FaArrowRight } from "react-icons/fa";

@@ -55,7 +55,7 @@ const Sidebar = () => {
 
         <li
           className={location.pathname === '/settings' ? 'active' : ''}
-          onClick={() => navigate('/settings')}
+          onClick={() => navigate('/Agent-settings')}
         >
           Settings
         </li>

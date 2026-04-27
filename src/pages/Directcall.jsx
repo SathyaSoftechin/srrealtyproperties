@@ -1,5 +1,5 @@
 import React from "react";
-import "./DirectCall.css";
+import "./Directcall.css";
 
 // images
 import bannerImg from "../assets/directcall-bg.png";

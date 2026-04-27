@@ -1,5 +1,5 @@
 import React from "react";
-import "./agent-report.css";
+import "./Agent-report.css";
 
 import {
   FaSearch,

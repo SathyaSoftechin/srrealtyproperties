@@ -70,6 +70,8 @@ import AgentProperty from "./pages/agent/agent-property";
 import AgentVerification from "./pages/agent/agent-verification";
 import AgentReport from "./pages/agent/Agent-report";
 import AgentPerformance from "./pages/agent/Agent-performance";
+import AgentSettings from "./pages/agent/Agent-setting";
+import PropertyVerification from "./pages/agent/Properties-verification";
 
 
 
@@ -91,7 +93,7 @@ function Layout() {
     "/join",
 
     "/body", "/ViewSummary", "/SchedulePrivate", "/media", "/review", "/blueprint", "/list-property","/agent-dashboard","/agent-property",
-      "/agent-report","/agent-performance"
+      "/agent-report","/agent-performance","/agent-settings","/property-verification"
 
 
 
@@ -173,9 +175,9 @@ function Layout() {
         <Route path="/agent-verification"element={<AgentVerification />} />
        <Route path="/agent-report" element={<AgentReport />} />
         <Route path="/agent-performance" element={<AgentPerformance />} />
-
-
-
+        <Route path="/agent-settings" element={<AgentSettings />} />
+        <Route path="/property-verification" element={<PropertyVerification />} />
+      
 
 
 

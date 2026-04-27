@@ -1,5 +1,5 @@
 import React from "react";
-import "./add-properties.css";
+import "./Add-properties.css";
 import mapImg from "../assets/Addproperties.png";
 
 // ICONS

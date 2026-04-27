@@ -1,0 +1,231 @@
+.Agent-setting-container {
+  padding: 30px;
+  color: #fff;
+  background: #000;
+  min-height: 100vh;
+}
+
+.Agent-setting-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.Agent-setting-subtitle {
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.Agent-setting-card {
+  background: #1a1a1a;
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 25px;
+  border: 1px solid #2d2d2d;
+}
+
+.Agent-setting-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #f4c400;
+  margin-bottom: 20px;
+}
+
+.Agent-setting-profile-card {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.Agent-setting-profile-img-wrapper {
+  position: relative;
+  width: 110px;
+  height: 110px;
+}
+
+.Agent-setting-profile-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #f4c400;
+  object-fit: cover;
+}
+
+.Agent-setting-edit-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #f4c400;
+  color: #000;
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Agent-setting-profile-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.Agent-setting-profile-grid label,
+.Agent-setting-availability-grid label,
+.Agent-setting-security-grid label {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.Agent-setting-profile-grid input,
+.Agent-setting-hours input {
+  width: 100%;
+  background: #000;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 30px;
+  color: #fff;
+}
+
+.Agent-setting-availability-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.Agent-setting-status-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.Agent-setting-status-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  background: #000;
+  color: #888;
+  cursor: pointer;
+}
+
+.Agent-setting-status-buttons .active {
+  background: #32d16d;
+  color: #000;
+  font-weight: 600;
+}
+
+.Agent-setting-toggle {
+  width: 55px;
+  height: 28px;
+  border-radius: 20px;
+  background: #333;
+  position: relative;
+}
+
+.Agent-setting-toggle.active {
+  background: #f4c400;
+}
+
+.Agent-setting-toggle::after {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  right: 4px;
+}
+
+.Agent-setting-task-limit {
+  color: #f4c400;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.Agent-setting-hours {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Agent-setting-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Agent-setting-table th,
+.Agent-setting-table td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.Agent-setting-table th:first-child,
+.Agent-setting-table td:first-child {
+  text-align: left;
+}
+
+.Agent-setting-security-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.Agent-setting-password-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Agent-setting-session {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #000;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.Agent-setting-session h4 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.Agent-setting-session p {
+  margin: 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.Agent-setting-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.Agent-setting-reset-btn {
+  background: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.Agent-setting-save-btn {
+  background: #f4c400;
+  color: #000;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
