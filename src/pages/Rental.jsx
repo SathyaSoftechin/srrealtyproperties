@@ -2,7 +2,7 @@ import React from "react";
 import "./Rental.css";
 
 // import your images
-import heroImg from "../assets/rental-hero.png";     // first image
+import heroImg from "../assets/Rental-hero.png";     // first image
 import lifestyleImg from "../assets/rental-life.png"; // second image
 import cart1 from "../assets/Rental-cart1.png";
 import cart2 from "../assets/Rental-cart2.png";

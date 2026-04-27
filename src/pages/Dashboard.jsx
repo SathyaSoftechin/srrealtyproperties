@@ -2,7 +2,7 @@ import React from "react";
 import "./Dashboard.css";
 
 // Images
-import villa from "../assets/Dashboard-villa.png";
+import villa from "../assets/Dashboard-Villa.png";
 import manor from "../assets/Dashboard-manor.png";
 import plant from "../assets/Dashboard-plant.png";
 import cabin from "../assets/Dashboard-cabin.png";

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 import "./SchedulePrivate.css";
 import heroImg from "../assets/PrivateSchedule-hero.png";
-import roomImg from "../assets/PrivateSchedule-room.Png";
+import roomImg from "../assets/PrivateSchedule-room.png";
 import user1 from "../assets/PrivateSchedule-user1.png";
 import user2 from "../assets/PrivateSchedule-user2.png";
 

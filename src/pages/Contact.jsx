@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 
 
-import mapImage from "../assets/worldmap.png"; // 🔁 your world map image
+import mapImage from "../assets/Worldmap.png"; // 🔁 your world map image
 import agent1 from "../assets/agent1.png";
 import agent2 from "../assets/agent2.png";
 import agent3 from "../assets/agent3.png";
